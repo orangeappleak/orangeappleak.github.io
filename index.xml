@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Wizard</title>
+    <link>https://orangeappleak.github.io/</link>
+    <description>Recent content on Code Wizard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Mar 2020 15:37:44 +0530</lastBuildDate>
+    
+	<atom:link href="https://orangeappleak.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Turtle, not an animal, But a python package.</title>
+      <link>https://orangeappleak.github.io/posts/turtlemodule/</link>
+      <pubDate>Thu, 02 Apr 2020 21:34:42 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/turtlemodule/</guid>
+      <description>Written by: Varun. Introduction Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.TURTLE. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.</description>
+    </item>
+    
+    <item>
+      <title>Hmmmm, MAC??</title>
+      <link>https://orangeappleak.github.io/posts/hmmmac/</link>
+      <pubDate>Thu, 02 Apr 2020 21:14:53 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/hmmmac/</guid>
+      <description>Written by: Thriven. We are all familiar with Apple&amp;rsquo;s laptop Macbook. For those who aren&amp;rsquo;t here is a brief idea, MacBook Air, Macbook and MacBook Pro are Apple&amp;rsquo;s versions of laptop. No one addresses it as a laptop actually, everyone calls it a Mac or Macbook. If you own a Macbook then you just have a Macbook not a laptop. These are really expensive like reaaaalllly expensive, a basic version of Macbook costs around 1 lakh, you want some accessories?</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#39;s file Structure.</title>
+      <link>https://orangeappleak.github.io/posts/hugofilestructure/</link>
+      <pubDate>Thu, 02 Apr 2020 12:15:38 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/hugofilestructure/</guid>
+      <description>Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</description>
+    </item>
+    
+    <item>
+      <title>Why and how i created this blog??</title>
+      <link>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</link>
+      <pubDate>Fri, 27 Mar 2020 15:37:44 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</guid>
+      <description>Written by: Karthik. Introduction First of all welcome to my fellow WIZARDS and thank you for taking your time to read this.
+This being my first post in my blog, i will be taking a moment to discuss why i created this blog and how i did it.
+I was thinking of creating a blog for a while now, but never actually did it untill recently, there is this KICK ASS cousin that i have(ill provide a link to his blog later in this post) and he had an awesome blog and some good posts, so i got inspired and thought why not create a blog and put some posts up, so that it will help me as well as other code wizards like YOU.</description>
+    </item>
+    
+    <item>
+      <title>Who is ME??</title>
+      <link>https://orangeappleak.github.io/about/</link>
+      <pubDate>Fri, 20 Mar 2020 15:37:44 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/about/</guid>
+      <description>This is how me looks: Introduction Me is basic human do basic program and live a basic life.So yeah pretty much about me is basic, and by the way i am no &amp;ldquo;SPOCK&amp;rdquo; from star trek, my original name is SHELDON COOPER, just kidding my real name is Appannagari Karthik or you could call me AK, however i would like to change my name to SHELDON, but lets save that for the future.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://orangeappleak.github.io/gallery_posts/new_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://orangeappleak.github.io/gallery_posts/new_post/</guid>
+      <description>This is where i showcase my work as well as some other sketches that i like. Drawings and Sketches: Grab some aswesome wallpapers: </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,224 @@
+html{height: 100%;}
+body{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%230c0000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23180000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23250000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23310000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%233d0000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    opacity: 0.4;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#content{
+    margin:60px;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: border 1s ease-in-out;
+}
+
+.profile_pic{
+    flex: 1;
+    overflow: hidden;
+}
+
+#profile_image{
+    position: relative;
+    left: 50%;
+    transform: translateX(100%) rotate(180deg);
+    border-radius: 200px;
+    width: 50%;
+    margin: 20px;
+    opacity: 0;
+    flex:1;
+    border:5px solid orange;
+    transition: transform 2s ease-in-out,opacity 1s ease-in-out;
+}
+
+#info{
+    padding: 0px;
+    position: relative;
+    border-left: 5px solid orange;
+    flex: 1;
+    width: 50%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+#site_name{
+    position: relative;
+    transform: translateX(-100%);
+    opacity: 0;
+    font-size: 80px;
+    font-family: 'pixel', sans-serif;
+    pointer-events: none;
+    letter-spacing: 4px;
+    transition: transform 1s ease-in-out,opacity 0.6s ease;
+}
+
+#my_name{
+    font-size: 60px;
+    font-family: 'pixel', sans-serif;
+    color: orange;
+    transform: translateY(-10%);
+    pointer-events: none;
+    opacity: 0;
+    padding: 0;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: transform 1.2s ease-in-out,opacity 0.8s ease;
+}
+
+#hobbies{
+    transform: translateY(-10%);
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    pointer-events: none;
+}
+
+#hobbies h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'pixel',sans-serif;
+    letter-spacing: 4px;
+}
+
+#social_icons{
+    margin: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    animation: fade 2s ease-in-out;
+}
+
+#social_icons img{
+    padding: 5px;
+    width: 100%;
+    flex: 1;
+    opacity: 0.5;
+    transform: scale(0.6);
+    align-items: center;
+    transition: opacity 0.6s ease-in-out,transform 0.4s ease-in-out;
+}
+
+
+#social_icons img:hover{
+    opacity: 1;
+    transform: scale(0.7);
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@font-face{
+    font-family: pixel;
+    src: url(/fonts/arcadeclassic/ARCADECLASSIC.TTF);
+}
+
+@font-face{
+    font-family: pixel1;
+    src: url(/fonts/pixel1/pixel1.TTF);
+}
+
+@font-face{
+    font-family: minecraft;
+    src: url(/fonts/minecraft/Minecraft.ttf);
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px){
+    
+    #content{
+        flex-direction: column;
+        padding: 10px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #info{
+        padding: 10px;
+        width: 90%;
+        border: 4px solid orange;
+    }
+
+    #info #site_name{
+        font-size: 45px;
+    }
+
+    #info #my_name{
+        font-size: 40px;
+    }
+
+    #hobbies h1{
+        font-size: 20px;
+    }
+
+    #social_icons {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px){
+
+    #content{
+        flex-direction: column;
+        padding: 10px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #info{
+        padding: 10px;
+        width: 90%;
+        border: 4px solid orange;
+    }
+
+    #info #site_name{
+        font-size: 38px;
+    }
+
+    #info #my_name{
+        font-size: 35px;
+    }
+
+    #hobbies h1{
+        font-size: 16px;
+    }
+
+    #social_icons {
+        width: 100%;
+    }
+
+}

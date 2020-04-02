@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/</loc>
+    <lastmod>2020-04-02T21:34:42+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/turtlemodule/</loc>
+    <lastmod>2020-04-02T21:34:42+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/hmmmac/</loc>
+    <lastmod>2020-04-02T21:14:53+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/hugofilestructure/</loc>
+    <lastmod>2020-04-02T12:15:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</loc>
+    <lastmod>2020-03-27T15:37:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/</loc>
+    <lastmod>2020-03-20T15:37:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/about/</loc>
+    <lastmod>2020-03-20T15:37:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/gallery_posts/new_post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/gallery_posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/tags/</loc>
+  </url>
+  
+</urlset>
