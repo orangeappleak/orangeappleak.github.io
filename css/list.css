@@ -20,7 +20,7 @@
     margin: 50px;
     color: orange;
     font-size: 80px;
-    font-family: 'pixel',sans-serif;
+    font-family: 'Sen',sans-serif;
     text-decoration: underline;
     text-decoration-color: orange;
     animation: fade 1s ease-in-out;
@@ -90,7 +90,7 @@
     padding: 10px;
     padding-top: 2px;
     text-decoration: none;
-    font-family: 'pixel',sans-serif;
+    font-family: 'Sen',sans-serif;
     letter-spacing: 1px;
     transition: color 0.5s ease-in-out;
     border-bottom: 1px solid orange;
@@ -111,9 +111,15 @@
     flex: 0;
     align-items: center;
     justify-content: center;
-    font-family: 'pixel',sans-serif;
+    font-family: 'Sen',sans-serif;
     display: flex;
     flex-direction: row;
+}
+
+#idk_heading{
+    opacity: 0.6;
+    color: white;
+    font-family: 'pixel1',sans-serif;
 }
 
 #recent_posts,#all_posts{
@@ -170,11 +176,11 @@
     }
 
     #my_recent_posts h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #options h1{
-        font-size: 40px;
+        font-size: 32px;
         letter-spacing: 2px;
     }
 
@@ -183,7 +189,7 @@
     }
 
     #post_link_date h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #post_link_date a{

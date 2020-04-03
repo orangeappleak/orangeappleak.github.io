@@ -11,7 +11,7 @@
     font-size: 30px;
     color: white;
     font-weight: 500;
-    font-family: 'pixel1',sans-serif;
+    font-family: 'Sen',sans-serif;
 }
 
 #gallery_posts p{
@@ -23,7 +23,7 @@
     font-size: 20px;
     position: relative;
     color: red;
-    font-family: 'pixel1',sans-serif;
+    font-family: 'Sen',sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,7 +47,7 @@
     color: white;
     font-size: 70px;
     text-align: center;
-    font-family: 'pixel',sans-serif;
+    font-family: 'Sen',sans-serif;
 }
 
 img{
