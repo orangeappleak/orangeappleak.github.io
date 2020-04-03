@@ -90,7 +90,7 @@
     padding: 10px;
     padding-top: 2px;
     text-decoration: none;
-    font-family: 'Sen',sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
     transition: color 0.5s ease-in-out;
     border-bottom: 1px solid orange;
@@ -148,55 +148,37 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px){
-
-    #list{
-        display: block;
-        flex: 1;
-        margin: 0;
-        position: relative;
-    }
-
-    #posts_title{
-        font-size: 60px;
-        letter-spacing: 3px;
-        margin: 10px;
-    }
-
-    #post_list{
-        width: 100%;
-    }
+    #content #list #posts_title{
+        font-size: 35px;
+        margin: 7px;
+    } 
 
     #options{
-        width: auto;
         flex-direction: column;
     }
 
-    #all_posts,#recent_posts{
-        width: 85%;
-    }
-
-    #my_recent_posts h1{
-        font-size: 25px;
-    }
-
-    #options h1{
+    #content #all_posts,#recent_posts{
         font-size: 32px;
-        letter-spacing: 2px;
-    }
-
-    #my_posts,#my_recent_posts{
+        width: 70%;
         margin: 5px;
     }
 
-    #post_link_date h1{
-        font-size: 25px;
+    #my_posts{
+        display: block;
     }
 
-    #post_link_date a{
-        width: 100%;
+    #my_posts h1{
+        font-size: 20px;
     }
 
-    #my_recent_posts a{
-        width: 100%;
+    #my_recent_posts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #my_recent_posts h1{
+        padding: 0;
+        margin: 5px;
+        font-size: 20px;
     }
 }
