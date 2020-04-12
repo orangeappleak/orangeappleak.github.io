@@ -55,6 +55,10 @@
     border: 1px solid red;
 }
 
+#post_content a{
+    color: yellow;
+}
+
 .highlight{
     font-size: 25px;
     overflow-x: scroll;
@@ -86,8 +90,8 @@
     }
 
     #post_content h1{
-        font-size: 30px;
-        width: 80%;
+        font-size: 50px;
+        width: 100%;
         color: cyan;
     }
 
