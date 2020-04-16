@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://orangeappleak.github.io/posts/letstalkprogramming/</loc>
-    <lastmod>2020-04-03T17:46:59+05:30</lastmod>
+    <loc>https://orangeappleak.github.io/posts/</loc>
+    <lastmod>2020-04-16T14:17:03+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://orangeappleak.github.io/posts/</loc>
+    <loc>https://orangeappleak.github.io/posts/versioncontrol/</loc>
+    <lastmod>2020-04-16T14:17:03+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orangeappleak.github.io/posts/letstalkprogramming/</loc>
     <lastmod>2020-04-03T17:46:59+05:30</lastmod>
   </url>
   
