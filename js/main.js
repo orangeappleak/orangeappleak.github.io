@@ -1,4 +1,6 @@
 $("document").ready(() => {
+    var previous_post = document.querySelector("#new_post");
+
     $("#profile_image").css({"transform" : "translateX(-50%)","opacity" : "1"});
     setTimeout(() => {
         $("#site_name").css({"transform" : "translateX(0%)","opacity" : "1"});
@@ -53,14 +55,17 @@ $("document").ready(() => {
     (function() {
         if ("Notification" in window) {
           var permission = Notification.permission;
-      
-          if (permission === "denied" || permission === "granted") {
-            return;
+          if (permission === "granted") {
+            Notification.requestPermission().then(function() {
+                var notification = new Notification("check out the new post:"+ previous_post.text);
+              });
           }
-      
-          Notification.requestPermission().then(function() {
-              var notification = new Notification("Hello, world!");
-            });
+          else {
+            Notification.requestPermission().then(function() {
+                var notification = new Notification("this, world!");
+                console.log(notification);
+              });
+            }
         }
       })();
 });
