@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "1a424682-5e92-419f-836e-72f5d57ab00f",
+    });
+  });
+</script>
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/header.css" type="text/css">
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/main.css" type="text/css">
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/footer.css" type="text/css">
@@ -25,7 +32,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
- 
 
 <body>
         <div id="header">
@@ -56,7 +62,7 @@ if (!doNotTrack) {
                 <div id="my_posts">
                 </div>
                 <div id="my_recent_posts">
-                    <h1 style="opacity: 0.6;color: white;font-family: 'pixel1',sans-serif">Check out my recent posts:</h1>
+                    <h1 id="idk_heading">Check out my recent posts:</h1>
                 </div>
             </div>
         </div>
