@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Photography</title>
+      <link>https://orangeappleak.github.io/posts/photography/</link>
+      <pubDate>Thu, 07 May 2020 19:41:51 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/photography/</guid>
+      <description>Written by: Vipul People:&amp;ldquo;YOU SHOULD NOT BE MAKING PROMISES THAT YOU CANT KEEP BRUH&amp;rdquo;.
+I know, I know its been long since i posted anything because I had a lot of things happening in MINECRAFT, yeah thats true but I won&amp;rsquo;t be getting carried away by that now(I should write about minecraft someday tho).
+So as of now I have written a few posts (YAY for that), but most of them were related to programming and computer stuff , I thought why not make the blog a little interesting by talking about some basic photography(Everyone loves clicking good pics so keep reading).</description>
+    </item>
+    
+    <item>
       <title>Version control</title>
       <link>https://orangeappleak.github.io/posts/versioncontrol/</link>
       <pubDate>Thu, 16 Apr 2020 14:17:03 +0530</pubDate>
@@ -85,7 +96,16 @@ I was thinking of creating a blog for a while now, but never actually did it unt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://orangeappleak.github.io/gallery_posts/new_post/</guid>
-      <description>This is where i showcase my work as well as some other sketches that i like. Drawings and Sketches: Grab some aswesome wallpapers: </description>
+      <description>This is where i showcase my work as well as some other sketches that i like. Drawings and Sketches: Grab some awesome wallpapers: </description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://orangeappleak.github.io/portfolio/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://orangeappleak.github.io/portfolio/test/</guid>
+      <description>hello this is the portfolio page </description>
     </item>
     
   </channel>
