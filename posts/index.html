@@ -3,6 +3,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/header.css" type="text/css">
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/main.css" type="text/css">
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/footer.css" type="text/css">
@@ -10,20 +12,6 @@
 <link rel="stylesheet" href="https://orangeappleak.github.io/css/post_content.css" type="text/css">
 <script src="https://orangeappleak.github.io/js/main.js"></script>
 <script src="https://orangeappleak.github.io/js/list.js"></script>
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-162562091-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
 <body>
         <div id="header">
     <h1 style="font-family: 'pixel',sans-serif;font-size: 40px;text-decoration: underline;padding: 10px"><a style = "text-decoration: none; color: white;" href="https://orangeappleak.github.io/">Code Wizard</a></h1>
@@ -40,6 +28,10 @@ if (!doNotTrack) {
 				<h1><a href="https://orangeappleak.github.io/gallery_posts/new_post">gallery</a></h1>
                 <div id="underline_gallery"></div>
             </div>
+            <div id="portfolio">
+				<h1><a href="https://orangeappleak.github.io/portfolio/test">portfolio</a></h1>
+                <div id="underline_portfolio"></div>
+            </div>
     </div>
 </div>
         <div id="content">
@@ -47,53 +39,69 @@ if (!doNotTrack) {
         <h1 id="posts_title">My Posts</h1>
             <div id="options">
                 <h1 id="all_posts">All posts</h1>
-                <h1 id="recent_posts">Recent posts</h1>
+                <h1 id="recent_posts">DAILY posts</h1>
             </div>
             <div id="post_list">
                 <div id="my_posts">
                     <div id="post_link_date">
-                        <p>Friday, Mar 27, 2020</p>
-                        <a href="https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/"><h1>Why and how I created this blog??</h1></a>
-                    </div>
-                    
-                    <div id="post_link_date">
-                        <p>Thursday, Apr 2, 2020</p>
-                        <a href="https://orangeappleak.github.io/posts/hugofilestructure/"><h1>Hugo&#39;s file Structure.</h1></a>
-                    </div>
-                    
-                    <div id="post_link_date">
-                        <p>Thursday, Apr 2, 2020</p>
-                        <a href="https://orangeappleak.github.io/posts/hmmmac/"><h1>Hmmmm, MAC??</h1></a>
-                    </div>
-                    
-                    <div id="post_link_date">
-                        <p>Thursday, Apr 2, 2020</p>
-                        <a href="https://orangeappleak.github.io/posts/turtlemodule/"><h1>Turtle, not an animal, But a python package.</h1></a>
-                    </div>
-                    
-                    <div id="post_link_date">
-                        <p>Friday, Apr 3, 2020</p>
-                        <a href="https://orangeappleak.github.io/posts/letstalkprogramming/"><h1>Lets.Talk Programming.</h1></a>
+                        <p>Thursday, May 7, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/photography/"><h1>Photography</h1></a>
+                        <p id="summary">Written by: Vipul People:&ldquo;YOU SHOULD NOT BE MAKING PROMISES THAT YOU CANT KEEP BRUH&rdquo;.
+I know, I know its been long since i posted anything because I had a lot of things happening in MINECRAFT, yeah thats true but I won&rsquo;t be getting carried away by that now(I should write about minecraft someday tho).
+So as of now I have written a few posts (YAY for that), but most of them were related to programming and computer stuff , I thought why not make the blog a little interesting by …</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/photography/"><p>Read More-></p></a>
                     </div>
                     
                     <div id="post_link_date">
                         <p>Thursday, Apr 16, 2020</p>
                         <a href="https://orangeappleak.github.io/posts/versioncontrol/"><h1>Version control</h1></a>
+                        <p id="summary">Written by: Karthik. Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.
+What is version control and why do you need it? From the title, Version Control, you might have guessed the context of this post and your right(dont get too excited, cause you&rsquo;re partially right).</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/versioncontrol/"><p>Read More-></p></a>
+                    </div>
+                    
+                    <div id="post_link_date">
+                        <p>Friday, Apr 3, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/letstalkprogramming/"><h1>Lets.Talk Programming.</h1></a>
+                        <p id="summary">All Are Equal before Programming Overview Hello There , are you a beginner at programming ? If the Answer is YES , then this Article is for You. If the Answer is NO , then this is definately for you. If you are a Programmer , then you should feel like all programming languages are the same. Programming languages and Classified as :
+ Functional Logical Object Oriented  They may be classified into Different types , but all are Same.</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/letstalkprogramming/"><p>Read More-></p></a>
+                    </div>
+                    
+                    <div id="post_link_date">
+                        <p>Thursday, Apr 2, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/turtlemodule/"><h1>Turtle, not an animal, But a python package.</h1></a>
+                        <p id="summary">Introduction Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.TURTLE. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.
+Let&rsquo;s get Started with Turtle.</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/turtlemodule/"><p>Read More-></p></a>
+                    </div>
+                    
+                    <div id="post_link_date">
+                        <p>Thursday, Apr 2, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/hmmmac/"><h1>Hmmmm, MAC??</h1></a>
+                        <p id="summary">Written by: Thriven. We are all familiar with Apple&rsquo;s laptop Macbook. For those who aren&rsquo;t here is a brief idea, MacBook Air, Macbook and MacBook Pro are Apple&rsquo;s versions of laptop. No one addresses it as a laptop actually, everyone calls it a Mac or Macbook. If you own a Macbook then you just have a Macbook not a laptop. These are really expensive like reaaaalllly expensive, a basic version of Macbook costs around 1 lakh, you want some accessories?</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/hmmmac/"><p>Read More-></p></a>
+                    </div>
+                    
+                    <div id="post_link_date">
+                        <p>Thursday, Apr 2, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/hugofilestructure/"><h1>Hugo&#39;s file Structure.</h1></a>
+                        <p id="summary">Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/hugofilestructure/"><p>Read More-></p></a>
+                    </div>
+                    
+                    <div id="post_link_date">
+                        <p>Friday, Mar 27, 2020</p>
+                        <a href="https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/"><h1>Why and how I created this blog??</h1></a>
+                        <p id="summary">Written by: Karthik. Introduction First of all welcome to my fellow WIZARDS and thank you for taking your time to read this.
+This being my first post in my blog, I will be taking a moment to discuss why I created this blog and how I did it.
+I was thinking of creating a blog for a while now, but never actually did it untill recently, there is this AWESOME cousin that I have(I&rsquo;ll provide a link to his blog later in this post) and he had an awesome blog and some good posts, so I got inspired …</p>
+                        <a id="read_more" href="https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/"><p>Read More-></p></a>
                     </div>
                     
                 </div>
                 <div id="my_recent_posts">
-                    <h1 id="idk_heading">Check out my recent posts:</h1>
-                            <a id="new_post" href="https://orangeappleak.github.io/posts/versioncontrol/"><h1>Version control</h1></a>
-                        
-                            <a href="https://orangeappleak.github.io/posts/letstalkprogramming/"><h1>Lets.Talk Programming.</h1></a>
-                        
-                            <a href="https://orangeappleak.github.io/posts/turtlemodule/"><h1>Turtle, not an animal, But a python package.</h1></a>
-                        
-                            <a href="https://orangeappleak.github.io/posts/hmmmac/"><h1>Hmmmm, MAC??</h1></a>
-                        
-                            <a href="https://orangeappleak.github.io/posts/hugofilestructure/"><h1>Hugo&#39;s file Structure.</h1></a>
-                        
+                    <h1>ITS STILL UNDER PROGRESS</h1>
                 </div>
             </div>
         </div>
