@@ -14,7 +14,7 @@ body{
 }
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-track{
@@ -25,7 +25,6 @@ body{
     opacity: 0.4;
     cursor: pointer;
     background-color: white;
-    border-radius: 50px;
 }
 
 #content{
@@ -35,7 +34,7 @@ body{
     position: relative;
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: border 1s ease-in-out;
@@ -49,9 +48,9 @@ body{
 #profile_image{
     position: relative;
     left: 50%;
-    transform: translateX(100%) rotate(180deg);
+    transform: translateY(150%) rotate(180deg);
     border-radius: 200px;
-    width: 50%;
+    width: 20%;
     margin: 20px;
     opacity: 0;
     flex:1;
@@ -62,7 +61,6 @@ body{
 #info{
     padding: 0px;
     position: relative;
-    border-left: 5px solid orange;
     flex: 1;
     width: 50%;
     color: white;
@@ -73,8 +71,9 @@ body{
 #site_name{
     position: relative;
     transform: translateX(-100%);
+    width: 100%;
     opacity: 0;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Sen', sans-serif;
     pointer-events: none;
     letter-spacing: 4px;
@@ -187,6 +186,10 @@ body{
 
     #social_icons {
         width: 100%;
+    }
+
+    #profile_image{
+        width: 50%;
     }
 }
 

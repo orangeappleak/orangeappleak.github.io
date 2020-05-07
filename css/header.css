@@ -8,7 +8,7 @@
 }
 
 #links{
-    flex:1;
+    flex:1.2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 #header h1{
-    flex: 2;
+    flex: 1;
     margin: 15px;
     color: white;
 }
@@ -35,13 +35,13 @@
     color: white;
 }
 
-#about,#posts,#gallery{
+#about,#posts,#gallery,#portfolio{
     padding: 0;
     margin-left: 40px;
     overflow: hidden;
 }
 
-#underline_about,#underline_posts,#underline_gallery{
+#underline_about,#underline_posts,#underline_gallery,#underline_portfolio{
     transform: translateX(-102%);
     border: 2px solid white;
     transition: transform 0.4s ease-in-out;
@@ -55,7 +55,7 @@
         flex-direction: column;
     }
 
-    #posts,#about,#gallery{
+    #posts,#about,#gallery,#portfolio{
         margin: 10px;
     }
 
@@ -71,6 +71,6 @@
     }
     #links h1{
         margin: 0;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
