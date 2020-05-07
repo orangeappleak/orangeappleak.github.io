@@ -176,15 +176,21 @@
         margin: 5px;
     }
 
+    #post_link_date p{
+        font-size: 15px;
+    }
+
     #summary {
         position: relative;
         left: 50%;
         margin: 0;
+        font-size: 1px;
         padding: 0;
         transform: translateX(-50%);
         width: 100%;
         text-align: center;
     }
+
     #my_posts{
         display: block;
     }
