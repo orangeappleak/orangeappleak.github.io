@@ -45,8 +45,11 @@
 }
 
 #post_content li,ul{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+    text-align: left;
+    margin: 0;
+    padding-left: 10px;
     font-family: sans-serif;
 }
 
@@ -89,6 +92,10 @@
         padding: 10px;
     }
 
+    #post_content img{
+        width: 100%;
+    }
+
     #post_content h1{
         font-size: 50px;
         width: 100%;
@@ -97,6 +104,7 @@
 
     #post_content p{
         font-size: 20px;
+        text-align: center;
     }
 
     #post_list li,ul{
