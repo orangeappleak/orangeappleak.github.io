@@ -68,6 +68,15 @@
     overflow-y: hidden;
     border: 2px solid white;
 }
+#post_content #imageLeft{
+    margin-right: 40px;
+    float: left;
+}
+
+#post_content #imageRight{
+    margin-left: 40px;
+    float: right;
+}
 
 @keyframes fade{
     from{
@@ -115,6 +124,19 @@
         font-size: 18px;
         overflow-x: scroll;
         overflow-y: hidden;
+    }
+
+
+    #post_content #imageLeft{
+        margin: auto;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    
+    #post_content #imageRight{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100% !important;
     }
 }
 
