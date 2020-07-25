@@ -71,11 +71,15 @@
 #post_content #imageLeft{
     margin-right: 40px;
     float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #post_content #imageRight{
     margin-left: 40px;
     float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 @keyframes fade{
