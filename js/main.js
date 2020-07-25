@@ -1,5 +1,5 @@
 $("document").ready(() => {
-    $("#profile_image").css({"transform" : "translateX(-50%)","opacity" : "1"});
+    $("#profile_image").css({"transform" : "translate(-50%,0%)","opacity" : "1"});
     setTimeout(() => {
         $("#site_name").css({"transform" : "translateX(0%)","opacity" : "1"});
         setTimeout(() => {
@@ -29,6 +29,12 @@ $("document").ready(() => {
     });
     $("#gallery").mouseleave(()=>{
         $("#underline_gallery").css({"transform" : "translateX(-102%)"});
+    });
+    $("#portfolio").mouseenter(()=>{
+        $("#underline_portfolio").css({"transform" : "translateX(0%)"});
+    });
+    $("#portfolio").mouseleave(()=>{
+        $("#underline_portfolio").css({"transform" : "translateX(-102%)"});
     });
 
     var check = document.querySelector("#this-is-how-me-looks");
