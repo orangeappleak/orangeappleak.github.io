@@ -116,12 +116,12 @@
     }
 
     #post_content p{
-        font-size: 20px;
-        text-align: center;
+        font-size: 17px;
+        text-align: left;
     }
 
     #post_list li,ul{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .highlight{
