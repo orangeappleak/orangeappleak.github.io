@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 #post_content{
     position: relative;
     background-color: black;
@@ -41,7 +43,7 @@
 #post_content p{
     font-size: 25px;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 
 #post_content li,ul{
