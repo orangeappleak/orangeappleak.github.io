@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hugo&#39;s file Structure. &middot; Code Wizard</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://orangeappleak.github.io/"><h1>Code Wizard</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://orangeappleak.github.io/">Home</a> </li>
+        <li><a href="/about/"> about </a></li><li><a href="/posts/"> posts </a></li><li><a href="/gallery_posts/new_post"> gallery </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Hugo&#39;s file Structure.</h1>
+  <time datetime=2020-04-02T12:15:38&#43;0530 class="post-date">Thu, Apr 2, 2020</time>
+  <h4 id="written-by-karthik">Written By: karthik.</h4>
+<h2 id="the-file-structure-of-a-hugo-generated-site">The file structure of a hugo generated site.</h2>
+<p>Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.So buckle up again.</p>
+<h2 id="what-files-are-we-talking-about">What files are we talking about?</h2>
+<p>Hugo like every SSG(Static site generator) has a pretty straight forward file structure and it looks something like this:</p>
+<ul>
+<li>your-site-name:
+<ul>
+<li>&ndash;&gt; archetypes</li>
+<li>&ndash;&gt; config.toml</li>
+<li>&ndash;&gt; content</li>
+<li>&ndash;&gt; data</li>
+<li>&ndash;&gt; layout</li>
+<li>&ndash;&gt; static</li>
+<li>&ndash;&gt; themes</li>
+</ul>
+</li>
+</ul>
+<p>We will discuss each of them below.</p>
+<h2 id="archetypes">Archetypes:</h2>
+<p>so when ever you create a new post using the new command,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">hugo new posts/your-post-name.md
+</code></pre></div><p>the archetypes decide what to put on the front matter of your posts.By default they have date and title of your post, something like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">---
+Title: &#34;My Post&#34;
+Date: date: 2050-03-18T15:37:44+05:30
+---
+</code></pre></div><p>So now we can define archetypes as content template files, cause they provide a template for your content information. The archetypes dir in your site&rsquo;s root folder contains some pre configured front matter and it also defines your website&rsquo;s content type, so when ever you use the new command this information is used to develop and render your page.
+If you have any archetype files in your theme folder then you probably want to delete the archetypes dir in the root folder of your site.</p>
+<h2 id="configtoml">Config.toml:</h2>
+<p>You&rsquo;ll be interacting a lot with this one, because this file is what defines the whole structure of your site. Hugo uses the config.toml as the default configuration file for your site. The config file can also be of the .yaml or .json extension so check your config file accordingly. Whatever your site uses like images, Customcss files or js files everything needs to be listed in the config file, even the base url, the theme that your site uses reside in this file. You can also have parameters in the config file and then use these parameters else where in your html files.</p>
+<h2 id="data">Data:</h2>
+<p>As the name suggests the data folder is used whenever your site requires some additional information or data when generating it.
+<em><strong>NOTE:</strong></em> Data files are never used to create standalone pages rather they are used in order to support the existing pages. Hugo supports loading data from YAML,JSON and TOML files located in the data directory in the root of your hugo project.</p>
+<h2 id="layouts">Layouts:</h2>
+<p>This directory provides all the necessary templates in the form of .html pages that of course specify how your site works and looks. These templates include list pages,single pages,your homepage,partials and what not (that means many more).</p>
+<h2 id="static">Static:</h2>
+<p>Stores all the static content: images, CSS, JavaScript, etc. When Hugo builds your site, all assets inside your static directory are copied over as-is. A good example of using the static folder is for verifying site ownership on Google Search Console, where you want Hugo to copy over a complete HTML file without modifying its content.</p>
+<p>And finally the content files contains all the markdown files or posts that are rendered on to your site as html files.The theme&rsquo;s folder contains all the contents related to your downloaded theme or custom created theme.</p>
+<p>If you want much detailed information on the file structure and what these files do, check the <a href="https://gohugo.io/getting-started/directory-structure/"><strong>HUGO DOCS</strong></a>.</p>
+<h1 id="until-the-next-post-peace-">Until the next post, PEACE ;)</h1>
+
+</div>
+
+
+    </main>
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162562091-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+  </body>
+</html>

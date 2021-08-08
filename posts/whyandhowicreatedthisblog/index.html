@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Why and how I created this blog?? &middot; Code Wizard</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://orangeappleak.github.io/"><h1>Code Wizard</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://orangeappleak.github.io/">Home</a> </li>
+        <li><a href="/about/"> about </a></li><li><a href="/posts/"> posts </a></li><li><a href="/gallery_posts/new_post"> gallery </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Why and how I created this blog??</h1>
+  <time datetime=2020-03-27T15:37:44&#43;0530 class="post-date">Fri, Mar 27, 2020</time>
+  <h4 id="written-by-karthik">Written by: Karthik.</h4>
+<h2 id="introduction">Introduction</h2>
+<p>First of all welcome to my fellow <strong>WIZARDS</strong> and thank you for taking your time to read this.</p>
+<p>This being my first post in my blog, I will be taking a moment to discuss why I created this blog and how I did it.</p>
+<p>I was thinking of creating a blog for a while now, but never actually did it untill recently,
+there is this <strong>AWESOME</strong> cousin that I have(I&rsquo;ll provide a link to his blog later in this post) and he had an awesome blog and some good posts, so I got inspired and thought why not create a blog and put some posts up, so that it will help me as well as other code wizards like YOU.</p>
+<h2 id="initial-work">Initial work</h2>
+<p>So, I started working on some basic layouts (like the one below) in HTML, SCSS and some JS and then moved on to write some posts, as I was writing some stuff I came across a thought-<em>How am I going to manage and handle all my posts on the blog?</em>.</p>
+<p><img src="/images/basic_layout.png" alt="cannot display image"></p>
+<p>2 solutions came to my mind:</p>
+<ul>
+<li>
+<p>one having to create a database so that you can add,modify and delete content(BlogPosts), there was already something like this present on the internet and that was called as a <strong>CONTENT MANAGEMENT SYSTEM</strong>. A CMS does exactly what I thought it does and it also provides a UI similar to word or even excel for that matter in order to create and manage the blog posts, but these cms&rsquo;s are not all free. I personally think FORESTRY cms is the best in business because it is built for the static site generators and its free&hellip;&hellip;&hellip;&hellip; well atleast for 3 users per website, check out the website for more info.
+Some of the popular cms&rsquo;s are as follow:</p>
+<ul>
+<li>the most common of them all being <strong>WIX</strong> - (which is worst by the way).</li>
+<li><strong>Wordpress</strong> - can be used for blogs and some small websites.</li>
+<li><strong>Joomla</strong> - provides a flexibility of creating custom databases and extensions.</li>
+<li><strong>Drupal</strong> - an open source platform most often used for community based websites.</li>
+</ul>
+</li>
+<li>
+<p>the second one being a simpler solution, I opted for creating the blog by using a <strong>Static site generator</strong>,and now you might be wondering what the heck is this guy talking about?&hellip;..Well an SSG as the name suggests helps you with creating static sites in no time, its just a matter of few handful commands and VOILA you already have a site running on your local machine. SSGs gain their advantage by providing shitload of themes to choose from and the ease of using them with your statically generated site, and trust me developing and deploying a statically genrated site is lot easier than you think.
+You can also be using html and css to create your site and host it on github or netllify or any preferred hosting services ,but I am going to use an SSG.</p>
+</li>
+</ul>
+<h2 id="why-and-what-is-a-static-site-generator">Why and What is a Static site generator?</h2>
+<p>Now you might be questioning why do I need an SSG while I can simply hard code the site on my own?</p>
+<p>HOLD YOUR HORSE&rsquo;S MA BOI it a&rsquo;int that simple.</p>
+<p>when you have the required tools lying around you, you would&rsquo;nt waste your time and energy to create the tools from scratch right?? , So in a similar way SSG does all the things for you, so that you can concentrate more on the important aspects of your site. The things like security for example and also the load times of your site, are all handled by the SSG. One more thing about SSG that makes people want to use it is the time required to create a site, you just have to choose a theme for your site and then run it on your local server and finally host the resulting html files, see it is simple is&rsquo;nt it.</p>
+<p>Having discussed what an SSG is and why to use it, let us look into some of the popular SSGs present on the web.
+The following are the most commonly used SSGs and are gaining a lot of attention right now:</p>
+<ul>
+<li>
+<h3 id="jekyll">Jekyll:</h3>
+<p>It is a simple blog-aware static site generator built in ruby by GITHUB&rsquo;s co-founder and <strong>is proudly hosted by github</strong> (they mentioned it, not me). Its simple because when you give it text written in your favorite markup language, it uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.
+Installing jekyll is easier when you are using CHOCOLATEY.
+just do</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">choco</span> <span style="color:#f92672">install</span> <span style="color:#f92672">jekyll</span> 
+</code></pre></div><p>and your good to go.
+check the official docs for more info.</p>
+</li>
+<li>
+<h3 id="hugo">Hugo:</h3>
+<p>This is one of my favourites (cause I use it XD), there is not much of a differece when it comes to what it does but the internal organizations and usages might differ. Hugo is an open sourced static site generator and is written in go (aka GOLANG) and also makes use of the go template engine and its <em>SICK</em>. It is developed by <strong>bep,spf13 and friends</strong>. The documentation is pretty overwhelming but still they serve what is necessary. Mostly all the SSGs use something called the markdown content for the posts, the .md files are later rendered as the required html pages.</p>
+</li>
+</ul>
+<h2 id="installing-hugo-and-building-your-first-site">Installing hugo and building your first site</h2>
+<h3 id="step-1-installing-hugo">Step 1: Installing Hugo</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">choco</span> <span style="color:#f92672">install</span> <span style="color:#f92672">hugo</span>
+</code></pre></div><p>This should probably install all the required files on to your system, you can also install using
+<code>css  &gt; brew install hugo (for macOS).</code></p>
+<h3 id="step-2-creating-a-new-site">Step 2: Creating a new site</h3>
+<p>Go to the dir where you want your site to be generated and type the following command in that dir</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">new</span> <span style="color:#f92672">site</span> <span style="color:#f92672">[</span><span style="color:#f92672">your-site-name</span><span style="color:#f92672">]</span>
+</code></pre></div><p>The above command will create a site named [your-site-name] in your specified directory.</p>
+<h3 id="step-3-add-a-theme">Step 3: Add a theme</h3>
+<p>Now you are ready to choose your theme from <a href="https://themes.gohugo.io/">hugo themes</a>, Iam going to use the quickStarter theme for this example <a href="https://github.com/budparr/gohugo-theme-ananke">Ananke theme</a>.
+Download the theme from the github repo and add it to the dir/[you-site-name]/themes folder
+and then initialise a github repo in your site directory, then add the theme as a sub module.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&gt; cd [your-site-name]
+&gt; git init
+&gt; git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre></div><p>last by not least add the theme to your sites configuration as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">echo &#39;theme = &#34;ananke&#34;&#39; &gt;&gt; config.toml
+</code></pre></div><p>the config file is a .toml file or a .yaml file, so edit the content accordingly.</p>
+<h3 id="step-4-add-some-content-to-your-site">Step 4: Add some content to your site</h3>
+<p>you can add new content or posts to your site by doing</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&gt; hugo new posts/myFirstPost.md
+</code></pre></div><p>here the myFirstpost is a markdown file and hence you need to follow the <a href="https://www.keycdn.com/support/markdown-cheatsheet">markdown syntax</a> in order to render it as a html page.
+now open up your myFirstPost.md and copy the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">---
+title: &#34;My First Post&#34;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+</code></pre></div><p>this here is know as the front-matter and is used by hugo when you want to gather some info on your posts.</p>
+<p>now you have a theme and some content on youre site, lets try to run our site locally as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">server</span> <span style="color:#f92672">-D</span>
+                <span style="color:#f92672">|</span> <span style="color:#f92672">EN</span>
+<span style="color:#f92672">+</span><span style="color:#f92672">------------------</span><span style="color:#f92672">+</span><span style="color:#f92672">----</span><span style="color:#f92672">+</span>
+<span style="color:#f92672">Pages</span>            <span style="color:#f92672">|</span> <span style="color:#f92672">10</span>
+<span style="color:#f92672">Paginator</span> <span style="color:#f92672">pages</span>  <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Non-page</span> <span style="color:#f92672">files</span>   <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Static</span> <span style="color:#f92672">files</span>     <span style="color:#f92672">|</span>  <span style="color:#f92672">3</span>
+<span style="color:#f92672">Processed</span> <span style="color:#f92672">images</span> <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Aliases</span>          <span style="color:#f92672">|</span>  <span style="color:#f92672">1</span>
+<span style="color:#f92672">Sitemaps</span>         <span style="color:#f92672">|</span>  <span style="color:#f92672">1</span>
+<span style="color:#f92672">Cleaned</span>          <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+
+<span style="color:#f92672">Total</span> <span style="color:#f92672">in</span> <span style="color:#f92672">11</span> <span style="color:#f92672">ms</span>
+<span style="color:#f92672">Watching</span> <span style="color:#f92672">for</span> <span style="color:#f92672">changes</span> <span style="color:#f92672">in</span> <span style="color:#f92672">/</span><span style="color:#f92672">Users</span><span style="color:#f92672">/</span><span style="color:#f92672">bep</span><span style="color:#f92672">/</span><span style="color:#f92672">quickstart</span><span style="color:#f92672">/</span>{<span style="color:#960050;background-color:#1e0010">content,data,layouts,static,themes</span>}
+<span style="color:#f92672">Watching</span> <span style="color:#f92672">for</span> <span style="color:#f92672">config</span> <span style="color:#f92672">changes</span> <span style="color:#f92672">in</span> <span style="color:#f92672">/</span><span style="color:#f92672">Users</span><span style="color:#f92672">/</span><span style="color:#f92672">bep</span><span style="color:#f92672">/</span><span style="color:#f92672">quickstart</span><span style="color:#f92672">/</span><span style="color:#f92672">config</span>.<span style="color:#a6e22e">toml</span>
+<span style="color:#f92672">Environment</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;development&#34;</span>
+<span style="color:#f92672">Serving</span> <span style="color:#f92672">pages</span> <span style="color:#f92672">from</span> <span style="color:#f92672">memory</span>
+<span style="color:#f92672">Running</span> <span style="color:#f92672">in</span> <span style="color:#f92672">Fast</span> <span style="color:#f92672">Render</span> <span style="color:#f92672">Mode</span><span style="color:#f92672">.</span> <span style="color:#f92672">For</span> <span style="color:#f92672">full</span> <span style="color:#f92672">rebuilds</span> <span style="color:#f92672">on</span> <span style="color:#f92672">change</span><span style="color:#f92672">:</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">server</span> <span style="color:#f92672">--disableFastRender</span>
+<span style="color:#f92672">Web</span> <span style="color:#f92672">Server</span> <span style="color:#f92672">is</span> <span style="color:#f92672">available</span> <span style="color:#f92672">at</span> {http:<span style="color:#f92672">//</span>localhost<span style="color:#f92672">:</span><span style="color:#ae81ff">1313</span><span style="color:#f92672">/</span>} <span style="color:#f92672">(</span><span style="color:#f92672">bind</span> <span style="color:#f92672">address</span> <span style="color:#f92672">127</span>.<span style="color:#a6e22e">0</span>.<span style="color:#a6e22e">0</span>.<span style="color:#a6e22e">1</span><span style="color:#f92672">)</span>
+<span style="color:#f92672">Press</span> <span style="color:#f92672">Ctrl</span><span style="color:#f92672">+</span><span style="color:#f92672">C</span> <span style="color:#f92672">to</span> <span style="color:#f92672">stop</span>
+</code></pre></div><p>now copy the link mentioned in the {} and paste it in your browser tab, we have our first site generated <strong>CONGRATULATIONS</strong>.</p>
+<p>you can create custom themes using HUGO like I did with my blog, and if you want to make any changes to your current site open up your config.toml/config.yaml file to tweak your site.
+Here&rsquo;s a link to the official docs <a href="https://gohugo.io/documentation/">HUGO DOCUMENTATION</a>.</p>
+<h3 id="heres-the-link-to-my-cousins-blog-ice-cerealhttpsicecerealgithubio">HERES THE LINK TO MY COUSINS BLOG <a href="https://icecereal.github.io/">ICE-CEREAL</a>.</h3>
+<h3 id="in-the-next-post-ill-be-discussing-about-the-file-formats-of-hugo-and-some-other-cool-stuff-about-hugo">In the next post ill be discussing about the file formats of hugo and some other cool stuff about HUGO</h3>
+<h1 id="until-then-peace-">until then PEACE ;)</h1>
+
+</div>
+
+
+    </main>
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162562091-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+  </body>
+</html>

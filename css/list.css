@@ -1,0 +1,212 @@
+#list{
+    position: relative;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    flex: 1;
+    animation: fade 1s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    overflow: hidden;
+}
+
+#posts_title{
+    margin: 50px;
+    color: orange;
+    font-size: 80px;
+    font-family: 'Sen',sans-serif;
+    animation: fade 1s ease-in-out;
+}
+
+#my_posts{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity 1s ease-in-out,transform 0.5s ease-in-out;
+}
+
+#post_link_date{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-top: 2px solid orange;
+}
+
+#post_link_date p{
+    font-size: 22px;
+    opacity: 0.6;
+    color: white;
+    text-decoration: underline;
+    margin: 2px;
+    margin-top: 20px;
+    font-family: 'Sen',sans-serif;
+}
+
+#post_link_date h1{
+    margin: 0px;
+}
+
+#my_recent_posts{
+    font-size: 80px;
+    color: white;
+}
+
+#my_posts,#my_recent_posts{
+    overflow: hidden;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+#post_list{
+    width: 100%;
+}
+
+#my_posts{
+    visibility: visible;
+    transition: opacity 1s ease-in-out,transform 1s ease-in-out;
+}
+
+#my_recent_posts{
+    position: absolute;
+    transform: translateX(100%);
+    top: 0;
+    opacity: 0;
+    visibility: collapse;
+    transition: position 0.7s ease-in-out,opacity 1s ease-in-out,transform 0.8s ease-in-out;
+}
+
+#list a{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 2px;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    transition: color 0.5s ease-in-out;
+}
+
+#summary {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
+
+#read_more p{
+    color: yellow;
+    opacity: 1;
+}
+
+#list a:hover{
+    color: orange;
+}
+
+
+#options{
+    position: relative;
+    padding: 10px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 100%;
+    font-size: 15px;
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sen',sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+#idk_heading{
+    opacity: 0.6;
+    color: white;
+    font-family: 'pixel1',sans-serif;
+}
+
+#recent_posts,#all_posts{
+    margin: 20px;
+    width: 30%;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#all_posts{
+    border-bottom: 5px solid red;
+    transition: border-bottom 0.4s ease-in-out;
+}
+
+#recent_posts{
+    border-bottom: 5px solid white;
+    transition: border-bottom 0.4s ease-in-out;
+}
+
+
+@font-face{
+    font-family: pixel;
+    src: url(/fonts/arcadeclassic/ARCADECLASSIC.TTF);
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    #content #list #posts_title{
+        font-size: 35px;
+        margin: 7px;
+    } 
+
+    #options{
+        flex-direction: column;
+    }
+
+    #content #all_posts,#recent_posts{
+        font-size: 32px;
+        width: 70%;
+        margin: 5px;
+    }
+
+    #post_link_date p{
+        font-size: 15px;
+        color: white;
+    }
+
+    #summary {
+        position: relative;
+        left: 50%;
+        margin: 0;
+        padding: 0;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    #my_posts{
+        display: block;
+    }
+
+    #my_posts h1{
+        font-size: 30px;
+    }
+
+    #my_recent_posts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #my_recent_posts h1{
+        padding: 0;
+        margin: 5px;
+        font-size: 30px;
+    }
+}

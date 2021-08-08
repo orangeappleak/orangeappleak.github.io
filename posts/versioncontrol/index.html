@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Version control &middot; Code Wizard</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://orangeappleak.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://orangeappleak.github.io/"><h1>Code Wizard</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://orangeappleak.github.io/">Home</a> </li>
+        <li><a href="/about/"> about </a></li><li><a href="/posts/"> posts </a></li><li><a href="/gallery_posts/new_post"> gallery </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Version control</h1>
+  <time datetime=2020-04-16T14:17:03&#43;0530 class="post-date">Thu, Apr 16, 2020</time>
+  <h3 id="written-by-karthik">Written by: Karthik.</h3>
+<p><img src="https://www.abstract.com/wp-content/uploads/version-history-header-1440x720.jpg" alt="image source: google"></p>
+<p>Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.</p>
+<h2 id="what-is-version-control-and-why-do-you-need-it">What is version control and why do you need it?</h2>
+<p>From the title, <strong>Version Control</strong>, you might have guessed the context of this post and your right(dont get too excited, cause you&rsquo;re partially right).</p>
+<p>Whenever you are developing something may that be a software or a website or just some project that you have been working on with some other people, you may have come across many problems that relate to keeping track of your changes and contributions to the project. When these changes and contributions are continuous you might as well lose track of what needs to be done and what is currently going on with the project, in other words you might get confused and loose your head, to avoid this confusion we need to keep track of the changes that we make and that is what version control does.</p>
+<p>Version control is a component that keeps track of all the changes that you make to a specific file or to a set of files. This component is treated more as a necessity than a tool for many companies as it makes their work easier. It can be considered as a book or a database that keeps records of different changes that you make, it contains all the changes and historical edits of your project, so if you mess something up ( due to your ineptitude (▀̿Ĺ̯▀̿ ̿) ) you can always start from the previous versions instead of starting from the beginning(Thank Version Control for this).</p>
+<p>There are many version control systems but the most popular right now is GIT, and guess what??
+Tech giants like Google, Twitter, Facebook, Netflix and many more make use of GIT. The main thing that puts GIT on top of others is the ability to perform operations locally, nearly all operations are done locally and this makes git faster and better. GIT lets you share your changes and contributions with your collegues and it even lets you clone the work of other people in order to make changes to their work.</p>
+<p>Git allows you to have multiple branches of a single repositary and these branches can be independent of each other. What if you have many repositaries and now its difficult to keep track of these repositories?? GITHUB has you covered.Github is a GIT repositary hosting service whereas GIT is a command line tool. It provides a web-based graphical interface for your repositaries and all the changes that you make using GIT can be viewed on GITHUB too. It has many other features and you can check out over <a href="https://github.com/explore">here</a>.</p>
+<h2 id="some-basic-git-commands">Some basic GIT commands.</h2>
+<p>Having discussed what git is , lets jump into how to use it. First of all you need to download the latest version of git from <a href="https://git-scm.com/downloads">here</a> or if you already have git installed you can get the latest version by cloning the git repositary</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git clone https://github.com/git/git
+</code></pre></div><p>after setting up the GIT tool you can head over to <a href="https://github.com">GITHUB</a> and create a new account if you dont have one and once you have an account created you can go ahead and create a new repositary and give it a name.</p>
+<p>After creating a new repositary,
+<strong>It should look something like this:</strong>
+<img src="/images/git_test.png" alt=""></p>
+<p>It might be a bit overwhelming at first but once you start using it you&rsquo;ll get the hang of it.</p>
+<p>The first command that we will be using is <em><strong>git clone</strong></em> and it is a pretty basic one,what it does is it saves a copy of the specified repositary on your local machine so that you can make changes locally and then once you&rsquo;re satisfied with the changes you can push it to GITHUB.</p>
+<p>So now go to the repositary that you just created and copy the specified url of the repositary.
+<img src="/images/git_test1.png" alt=""></p>
+<p>Open up your terminal and cd to where you want the repositary to be cloned and after that all you need to do is</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/orangeappleak/test.git
+Cloning into <span style="color:#e6db74">&#39;test&#39;</span>...
+remote: Enumerating objects: 3, <span style="color:#66d9ef">done</span>.
+remote: Counting objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+remote: Compressing objects: 100% <span style="color:#f92672">(</span>2/2<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+remote: Total <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, reused <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, pack-reused <span style="color:#ae81ff">0</span>
+Receiving objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+</code></pre></div><p>It shows a warning saying that we have cloned an empty repositary and its true but nothing to worry about, now you can see that the repositary has been cloned or copied to the specified directory.</p>
+<p>Now head over to the directory where the cloned repositary exists and create a new file, I am going to create a html file but you can create any type of file.</p>
+<p>Our github repositary is still empty, so lets add the file that we just created to our GITHUB repo.
+Here we make use of the command <em><strong>git add</strong></em>. This command informs GIT which files are going to be added to the repo(short for repositary).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add hello.html
+</code></pre></div><p>hello.html is the name of my file, you need to specify the name of your file while executing the above command. So now GIT is aware of which files to add to the repo, now lets save the changes and add a short message in order to recognize what changes we have made. To do this we use the <em><strong>git commit</strong></em> command with a message flag as follows.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;added a new line to the file&#34;</span>
+<span style="color:#f92672">[</span>master <span style="color:#f92672">(</span>root-commit<span style="color:#f92672">)</span> 0ac0142<span style="color:#f92672">]</span> added a new line
+ <span style="color:#ae81ff">1</span> file changed, <span style="color:#ae81ff">10</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>
+ create mode <span style="color:#ae81ff">100644</span> hello.html
+</code></pre></div><p>The message can be anything relating to the changes that you make, it makes it easier to recognize what changes have been made at a glance.
+The final thing we need to do is to puch the file we created to our github repo. We make use of <em><strong>git push</strong></em> command in order to push the file or the changes that we made to our github repo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push
+Enumerating objects: 3, <span style="color:#66d9ef">done</span>.
+Counting objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+Delta compression using up to <span style="color:#ae81ff">12</span> threads
+Compressing objects: 100% <span style="color:#f92672">(</span>2/2<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+Writing objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#ae81ff">361</span> bytes | 361.00 KiB/s, <span style="color:#66d9ef">done</span>.
+Total <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, reused <span style="color:#ae81ff">0</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, pack-reused <span style="color:#ae81ff">0</span>
+To https://github.com/orangeappleak/test.git
+ * <span style="color:#f92672">[</span>new branch<span style="color:#f92672">]</span>      master -&gt; master
+
+</code></pre></div><p>After all the above steps or commands are executed you can head over to your repositaries on github and now you can see that the file that you created on your local machine is added to your github repositary along with the short message.
+<img src="/images/git_test2.png" alt="">
+Now the people working along with you can see what changes you have made, they can also clone the repo and make changes to your file and then push it back to your repositary. In this way you can keep track of all your changes and versions using git.</p>
+<p>Now let us say that someone has made changes on your github repositary using the inbuilt edit mode that github provides, these changes are not reflected on your local machine. If we want to update the local files to the changes made on our github repo we make use of the <em><strong>git pull</strong></em> command. This command updates all the files on your local machine as per the changes made on your github repositary.</p>
+<p>Another useful command is the <em><strong>git log</strong></em> command, it lists all the changes made by you as well as other people.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git log
+commit 0ac014267063ae3ae2a7a7c0185e72126e7a563f <span style="color:#f92672">(</span>HEAD -&gt; master, origin/master<span style="color:#f92672">)</span>
+Author: orangeappleak &lt;email@gmail.com&gt;
+Date:   Thu Apr <span style="color:#ae81ff">16</span> 15:55:38 <span style="color:#ae81ff">2020</span> +0530
+
+    added a new line
+
+</code></pre></div><p>So if you messed up and want to restore to the previous changes you can make use of the <em><strong>git reset [commit]</strong></em> where commit is the unique identification number (hashcode) used by github, the commit can be obtained from the log.</p>
+<p>I have commited some new changes and then moved back to the previous version as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">D:\projects\test_websites\test&gt;git add *</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git commit -m &#34;added a new heading&#34;</span>
+[<span style="color:#ae81ff">master 4fe0c68] added a new heading</span>
+ <span style="color:#ae81ff">1</span> <span style="color:#ae81ff">file changed, 1 insertion(+)</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git push</span>
+<span style="color:#f92672">Enumerating objects</span>: <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">done.</span>
+<span style="color:#f92672">Counting objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (5/5), done.</span>
+<span style="color:#ae81ff">Delta compression using up to 12 threads</span>
+<span style="color:#f92672">Compressing objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (2/2), done.</span>
+<span style="color:#f92672">Writing objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (3/3), 323 bytes | 323.00 KiB/s, done.</span>
+<span style="color:#ae81ff">Total 3 (delta 1), reused 0 (delta 0), pack-reused 0</span>
+<span style="color:#f92672">remote: Resolving deltas</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (1/1), completed with 1 local object.</span>
+<span style="color:#ae81ff">To https://github.com/orangeappleak/test.git</span>
+   <span style="color:#ae81ff">0ac0142..4fe0c68  master -&gt; master</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git log</span>
+<span style="color:#ae81ff">commit 4fe0c6813c75f43ec9c270036abbbd8bc0d50f1d (HEAD -&gt; master, origin/master)</span>
+<span style="color:#f92672">Author</span>: <span style="color:#ae81ff">orangeappleak &lt;appannagarikarthik.123@gmail.com&gt;</span>
+<span style="color:#f92672">Date</span>:   <span style="color:#ae81ff">Thu Apr 16 16:36:38 2020 +0530</span>
+
+    <span style="color:#ae81ff">added a new heading</span>
+
+<span style="color:#ae81ff">commit 0ac014267063ae3ae2a7a7c0185e72126e7a563f</span>
+<span style="color:#f92672">Author</span>: <span style="color:#ae81ff">orangeappleak &lt;appannagarikarthik.123@gmail.com&gt;</span>
+<span style="color:#f92672">Date</span>:   <span style="color:#ae81ff">Thu Apr 16 15:55:38 2020 +0530</span>
+
+    <span style="color:#ae81ff">added a new line</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git reset --hard 0ac014267</span>
+<span style="color:#ae81ff">HEAD is now at 0ac0142 added a new line</span>
+</code></pre></div><h3 id="hope-this-post-has-helped-you-learn-something-new">Hope this post has helped you learn something new,</h3>
+<h3 id="keep-learning--keep-programming">keep learning , keep programming</h3>
+<h1 id="until-the-next-post">UNTIL THE NEXT POST,</h1>
+<h1 id="adios-amigos">ADIOS AMIGOS</h1>
+<h3 id="---з---ʖ-ε----">̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿</h3>
+
+</div>
+
+
+    </main>
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-162562091-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+  </body>
+</html>

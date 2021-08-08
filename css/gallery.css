@@ -1,0 +1,101 @@
+#gallery_posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0%;
+}
+
+#gallery_posts h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Sen',sans-serif;
+}
+
+#gallery_posts h3{
+    color: white;
+    font-family: 'Sen',sans-serif;
+}
+
+#gallery_posts p{
+    padding: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 80%;
+    height: 60vh;
+    font-size: 20px;
+    position: relative;
+    color: red;
+    font-family: 'Sen',sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid orange;
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+#gallery_posts ::-webkit-scrollbar-track{
+    width: 2px;
+    background-color: black;
+}
+
+#gallery_posts ::-webkit-scrollbar-thumb{
+    width: 2px;
+    border-radius: 0px;
+    background-color: white;
+}
+
+#gallery_posts h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Sen',sans-serif;
+}
+
+img{
+    padding: 2px;
+    width: auto;
+    height: 100%;
+    box-sizing: content-box;
+    line-height: normal;
+    flex: 1 1 0%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    #gallery_posts{
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gallery_posts h1{
+        font-size: 30px;
+    }
+
+    #gallery_posts p{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        font-size: 20px;
+        position: relative;
+        width: 80%;
+        height: auto;
+        color: red;
+        font-family: 'pixel1',sans-serif;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        margin: 0;
+        padding-top: 20px;
+        flex: 1;
+        width: 90%;
+    }
+
+
+}
