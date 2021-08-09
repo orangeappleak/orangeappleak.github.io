@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on redmangoapple</title>
+    <link>https://orangeappleak.github.io/tags/programming/</link>
+    <description>Recent content in programming on redmangoapple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2020 20:36:48 +0530</lastBuildDate><atom:link href="https://orangeappleak.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I made a game!!!!!</title>
+      <link>https://orangeappleak.github.io/posts/my-first-game/</link>
+      <pubDate>Mon, 22 Jun 2020 20:36:48 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/my-first-game/</guid>
+      <description>Written By: A.Karthik Hello my fellow blog readers, I got an interesting post for you today. Who does not like playing games, almost from 3 year olds to 40 year olds play games on mobile or their pc&amp;rsquo;s or laptops or consoles, lot of options. So today I am going to discuss what unity is and how I developed a 2d game using UNITY.
+Unity is a software/game-engine!! So let us say that someday you decided to develop a game all by yourselves by using java or objective-c , this would just be fine if you are in the 1900&amp;rsquo;s but your in 2000&amp;rsquo;s now (this does&amp;rsquo;nt make sense but you get the point).</description>
+    </item>
+    
+    <item>
+      <title>Version control</title>
+      <link>https://orangeappleak.github.io/posts/versioncontrol/</link>
+      <pubDate>Thu, 16 Apr 2020 14:17:03 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/versioncontrol/</guid>
+      <description>Written by: Karthik. Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.
+What is version control and why do you need it? From the title, Version Control, you might have guessed the context of this post and your right(dont get too excited, cause you&amp;rsquo;re partially right).</description>
+    </item>
+    
+    <item>
+      <title>Lets.Talk Programming.</title>
+      <link>https://orangeappleak.github.io/posts/letstalkprogramming/</link>
+      <pubDate>Fri, 03 Apr 2020 17:46:59 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/letstalkprogramming/</guid>
+      <description>Written By: Varun All Are Equal before Programming Overview Hello There , are you a beginner at programming ? If the Answer is YES , then this Article is for You. If the Answer is NO , then this is definately for you. If you are a Programmer , then you should feel like all programming languages are the same. Programming languages and Classified as :
+ Functional Logical Object Oriented  They may be classified into Different types , but all are Same.</description>
+    </item>
+    
+    <item>
+      <title>Turtle, not an animal, But a python package.</title>
+      <link>https://orangeappleak.github.io/posts/turtlemodule/</link>
+      <pubDate>Thu, 02 Apr 2020 21:34:42 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/turtlemodule/</guid>
+      <description>Introduction Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.TURTLE. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.
+Let&amp;rsquo;s get Started with Turtle.</description>
+    </item>
+    
+    <item>
+      <title>Hugo&#39;s file Structure.</title>
+      <link>https://orangeappleak.github.io/posts/hugofilestructure/</link>
+      <pubDate>Thu, 02 Apr 2020 12:15:38 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/hugofilestructure/</guid>
+      <description>Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</description>
+    </item>
+    
+    <item>
+      <title>Why and how I created this blog??</title>
+      <link>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</link>
+      <pubDate>Fri, 27 Mar 2020 15:37:44 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</guid>
+      <description>Written by: Karthik. Introduction First of all welcome to my fellow WIZARDS and thank you for taking your time to read this.
+This being my first post in my blog, I will be taking a moment to discuss why I created this blog and how I did it.
+I was thinking of creating a blog for a while now, but never actually did it until recently, there is this AWESOME cousin that I have(I&amp;rsquo;ll provide a link to his blog later in this post) and he had an awesome blog and some good posts, so I got inspired and thought why not create a blog and put some posts up, so that it will help me as well as other code wizards like YOU.</description>
+    </item>
+    
+  </channel>
+</rss>

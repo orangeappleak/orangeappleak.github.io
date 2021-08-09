@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game-dev on redmangoapple</title>
+    <link>https://orangeappleak.github.io/tags/game-dev/</link>
+    <description>Recent content in game-dev on redmangoapple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2020 20:36:48 +0530</lastBuildDate><atom:link href="https://orangeappleak.github.io/tags/game-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I made a game!!!!!</title>
+      <link>https://orangeappleak.github.io/posts/my-first-game/</link>
+      <pubDate>Mon, 22 Jun 2020 20:36:48 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/my-first-game/</guid>
+      <description>Written By: A.Karthik Hello my fellow blog readers, I got an interesting post for you today. Who does not like playing games, almost from 3 year olds to 40 year olds play games on mobile or their pc&amp;rsquo;s or laptops or consoles, lot of options. So today I am going to discuss what unity is and how I developed a 2d game using UNITY.
+Unity is a software/game-engine!! So let us say that someday you decided to develop a game all by yourselves by using java or objective-c , this would just be fine if you are in the 1900&amp;rsquo;s but your in 2000&amp;rsquo;s now (this does&amp;rsquo;nt make sense but you get the point).</description>
+    </item>
+    
+  </channel>
+</rss>

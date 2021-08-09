@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>files on redmangoapple</title>
+    <link>https://orangeappleak.github.io/tags/files/</link>
+    <description>Recent content in files on redmangoapple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 12:15:38 +0530</lastBuildDate><atom:link href="https://orangeappleak.github.io/tags/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#39;s file Structure.</title>
+      <link>https://orangeappleak.github.io/posts/hugofilestructure/</link>
+      <pubDate>Thu, 02 Apr 2020 12:15:38 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/hugofilestructure/</guid>
+      <description>Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</description>
+    </item>
+    
+  </channel>
+</rss>

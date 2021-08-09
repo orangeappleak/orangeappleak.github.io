@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on redmangoapple</title>
+    <link>https://orangeappleak.github.io/tags/git/</link>
+    <description>Recent content in git on redmangoapple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Apr 2020 14:17:03 +0530</lastBuildDate><atom:link href="https://orangeappleak.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version control</title>
+      <link>https://orangeappleak.github.io/posts/versioncontrol/</link>
+      <pubDate>Thu, 16 Apr 2020 14:17:03 +0530</pubDate>
+      
+      <guid>https://orangeappleak.github.io/posts/versioncontrol/</guid>
+      <description>Written by: Karthik. Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.
+What is version control and why do you need it? From the title, Version Control, you might have guessed the context of this post and your right(dont get too excited, cause you&amp;rsquo;re partially right).</description>
+    </item>
+    
+  </channel>
+</rss>
