@@ -1,100 +1,759 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Code Wizard</title>
-    <link>https://orangeappleak.github.io/posts/</link>
-    <description>Recent content in Posts on Code Wizard</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2020 20:36:48 +0530</lastBuildDate><atom:link href="https://orangeappleak.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>I made a game!!!!!</title>
-      <link>https://orangeappleak.github.io/posts/my-first-game/</link>
-      <pubDate>Mon, 22 Jun 2020 20:36:48 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/my-first-game/</guid>
-      <description>Written By: A.Karthik Hello my fellow blog readers, I got an interesting post for you today. Who does not like playing games, almost from 3 year olds to 40 year olds play games on mobile or their pc&amp;rsquo;s or laptops or consoles, lot of options. So today I am going to discuss what unity is and how I developed a 2d game using UNITY.
+    <channel>
+        <title>Posts on redmangoapple</title>
+        <link>https://orangeappleak.github.io/posts/</link>
+        <description>Recent content in Posts on redmangoapple</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 22 Jun 2020 20:36:48 +0530</lastBuildDate>
+        <atom:link href="https://orangeappleak.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>I made a game!!!!!</title>
+            <link>https://orangeappleak.github.io/posts/my-first-game/</link>
+            <pubDate>Mon, 22 Jun 2020 20:36:48 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/my-first-game/</guid>
+            <description>Written By: A.Karthik Hello my fellow blog readers, I got an interesting post for you today. Who does not like playing games, almost from 3 year olds to 40 year olds play games on mobile or their pc&amp;rsquo;s or laptops or consoles, lot of options. So today I am going to discuss what unity is and how I developed a 2d game using UNITY.
 Unity is a software/game-engine!! So let us say that someday you decided to develop a game all by yourselves by using java or objective-c , this would just be fine if you are in the 1900&amp;rsquo;s but your in 2000&amp;rsquo;s now (this does&amp;rsquo;nt make sense but you get the point).</description>
-    </item>
-    
-    <item>
-      <title>Novels that blow your mind!!</title>
-      <link>https://orangeappleak.github.io/posts/awesomenovels/</link>
-      <pubDate>Mon, 01 Jun 2020 20:38:56 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/awesomenovels/</guid>
-      <description>Written by: A.Karthik It&amp;rsquo;s been really really long since I posted anything, so here is an interesting post that&amp;rsquo;ll blow your brains out(you can test it out if you want). A lot of people really love reading books but struggle to find some good reads like me, I am a fan of murder-mysteries and yeah today I&amp;rsquo;ll be sharing my top 5 murder-mysteries to read during the lockdown.Well I have no intention of inducing criminal tendencies, so people who are easily persuaded stay out.</description>
-    </item>
-    
-    <item>
-      <title>Photography</title>
-      <link>https://orangeappleak.github.io/posts/photography/</link>
-      <pubDate>Thu, 07 May 2020 19:41:51 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/photography/</guid>
-      <description>Written by: Vipul People:&amp;ldquo;YOU SHOULD NOT BE MAKING PROMISES THAT YOU CANT KEEP BRUH&amp;rdquo;.
+            <content type="html"><![CDATA[<h3 id="written-by-akarthik">Written By: A.Karthik</h3>
+<p><img src="https://instabug.com/blog/wp-content/uploads/2021/01/b_Must-Have-Mobile-Game-Development-Tools-.png" alt="image source: google"></p>
+<p>Hello my fellow blog readers, I got an interesting post for you today. Who does not like playing games, almost from 3 year olds to 40 year olds play games on mobile or their pc&rsquo;s or laptops or consoles, lot of options. So today I am going to discuss what unity is and how I developed a 2d game using UNITY.</p>
+<h2 id="unity-is-a-softwaregame-engine">Unity is a software/game-engine!!</h2>
+<p>So let us say that someday you decided to develop a game all by yourselves by using java or objective-c , this would just be fine if you are in the 1900&rsquo;s but your in 2000&rsquo;s now (this does&rsquo;nt make sense but you get the point).The biggest problem when you decide to develop a game from scratch is that you have to develop your own collision system, a physics engine, an object renderer, a light emission system and a lot of other stuff which is scary right, so instead of finishing the game in 1 year you might end up finishing it in 2 or maybe more years this is where unity comes into picture.Unity has everything that you need to get started, it has its own physics system(which is really complex to understand sometimes), its own animation rig and others that make developing a game lot more fun and interesting.</p>
+<h2 id="so-why-unity-and-why-not-others">So why Unity and why not others??</h2>
+<p>There are other handfull of game engines that you could use like unreal, GODOT, GameMaker studio and source engine(not for commercial purposes). FUN FACT: SOURCE ENGINE IS A REALLY OLD GAME ENGINE AND APEX LEGENDS WAS DEVELOPED USING THIS ENGINE, so why unity.Unity Technology may be an unsung name among the general public, but game developers know that it is the most widely used and fastest growing game development platform available today. Big game titles including &ldquo;Fallout Shelter,&rdquo; &ldquo;Temple Run,&rdquo; &ldquo;Monument Valley,&rdquo; &ldquo;Battlestar Galactica Online,&rdquo; &ldquo;Assassin&rsquo;s Creed: Identity&rdquo; and &ldquo;Hearthstone: Heroes of Warcraft&rdquo; are made with Unity.Unity decreases the necessary complexity of game code - and also increases comfort and capability.Another thing that sets unity aside from others is its crazy fast development time.Also, Unity3d is really good on multiple platforms. Of course, you can&rsquo;t create, say, a windows .exe game and then magically have it &ldquo;just work&rdquo; on the iPhone; but Unity gets pretty close to that. What is required is &ldquo;tweaking&rdquo; more than &ldquo;porting&rdquo;.</p>
+<img src = "https://qphs.fs.quoracdn.net/main-qimg-7a01fd29584323182baa114d2f8e1d17" id="imageLeft" style = "width: 50%"/>
+<p>The charts say it all, Worldwide Unity takes a plus 45% share of the full feature game engine market, approx. 3 times that of our closest competitor and you know what the unity game engine is far more popular amongst developers than any other game development software.The proportion relying on Unity as their primary development tool using Unity is growing all the time.</p>
+<img src="https://qphs.fs.quoracdn.net/main-qimg-a47467c674cae65b803433b72fbe0877.webp" id="imageRight" style = "width: 46%"/>
+<p>Unity Dominates 3D Mobile Games industry.In every major market in the world, an overwhelming majority of the top-grossing 3D mobile games made with third party tools are made using Unity.</p>
+<p>Enough of these charts now lets break down the development of my game.</p>
+<h2 id="how-did-it-start">How did it start??</h2>
+<p>Before I knew about game engines I wanted to make a space-shooter using java and as I discussed earlier the problems one would face while doing this, but i did not know about UNITY or any other game engine so I developed my own game engine without even knowing it.So my first ever game was called THE SPACE WARRIORS and was entirely developed in java.I never finished developing this game because it was really hard to do it.The most difficult part for me while developing this game was to make it run the same on a high end system and a low end system another notable diffculty was the collision system and the sprite rendering system which helps render images or sprites on to the screen.
+here is a screen shot of how the game looked(all the spaceships or warplanes that you see in this pic were designed by me):
+<img id="imageLeft" src="/images/thespacewarriors.png" style="width: 50%"/></p>
+<p>I tried to learn unity many number of times but I could not understand how it all worked, like how 2d animations should be done, how the levels should be designed and how the player movement should be implemented, but the urge to develop a 2d game made me comeback to unity and it made me keep learning unity. After spending hours and hours of watching tutorials on youtube(especially from BRACKEYS, because he is the best) I finally understood some basic functionalities of UNITY and started experimenting with them.</p>
+<p>The following codeblock is the first movement script that I have ever written and it worked just fine.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#75715e">//written in C#.
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">void</span> Movement(){
+        <span style="color:#66d9ef">float</span> move = Input.GetAxisRaw(<span style="color:#e6db74">&#34;Horizontal&#34;</span>);
+        <span style="color:#66d9ef">if</span>(Input.GetKeyDown(KeyCode.Space) &amp;&amp; <span style="color:#ae81ff">_</span>grounded){
+            <span style="color:#ae81ff">_</span>rigidBody.velocity = <span style="color:#66d9ef">new</span> Vector2(<span style="color:#ae81ff">_</span>rigidBody.velocity.x ,<span style="color:#ae81ff">_</span>jumpForce);
+            <span style="color:#ae81ff">_</span>anim.jumping(<span style="color:#66d9ef">true</span>);
+        }
+        <span style="color:#ae81ff">_</span>rigidBody.velocity = <span style="color:#66d9ef">new</span> Vector2(move * <span style="color:#ae81ff">_</span>speed,<span style="color:#ae81ff">_</span>rigidBody.velocity.y);
+        <span style="color:#75715e">//play the animation of movement.
+</span><span style="color:#75715e"></span>        <span style="color:#ae81ff">_</span>anim.Move(move);
+    }
+</code></pre></div><p>let us break the codeblock down.There are some variables that you might notice like _anim,_rigidBody and _grounded which are not really easy to explain afterall ABSTRACTION is what we need so lets move on to the simpler one&rsquo;s. The if condition is where the jumping happens and the _grounded variable is a boolean that is controlled by a function that I developed using unity&rsquo;s ray tracing,
+ray tracing is just a ray drawn from the center of the Rigid Body to anywhere you want it to point, this ray detects the collisions of the RIGID BODY with the other objects in our case the GROUND.</p>
+<p>I also learned that this is the basis of all the player movement, this is how it is done. The character was moving fine and all but the sprite was not flipping, it was facing the positive x-direction even when the player is moving in -ve x-direction.The following was a simple fix for that.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#75715e">//_renderer is an instance of SpriteRenderer and using this instance the
+</span><span style="color:#75715e">//flipX property is accessed accrodingly.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span>(move&lt;<span style="color:#ae81ff">0</span>) <span style="color:#ae81ff">_</span>renderer.flipX = <span style="color:#66d9ef">true</span>;
+<span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(move &gt; <span style="color:#ae81ff">0</span>) <span style="color:#ae81ff">_</span>renderer.flipX = <span style="color:#66d9ef">false</span>;
+</code></pre></div><p>Ok so the flipping was fixed but what about the animation??</p>
+<h2 id="animation-and-animator-in-unity">Animation and Animator in UNITY.</h2>
+<p>Before we talk about animation and animator lets talk about sprites and sprite sheets.
+<img src="https://s3.envato.com/files/234083782/06_preview.jpg" style="width: 50%" id="imageRight"/>
+What you are seeing in the image is called as a spritesheet and each individual image after slicing from the spritesheet is called as a sprite, When you play this sprites in the same order you get an animation <strong>VOILA</strong>, so this is how 2d-animation works in unity.Unity also offers another way to animate your character and it is called skeletal animation which is way more complex cause you have to use a bone mapping system and a muscle system on your character in order to get a smooth animation but this is very effective because it lets you move your character in any desirable manner.
+Consider the same image and let us say that you sliced the individual &ldquo;SPRITES&rdquo; from the &ldquo;SPRITE SHEET&rdquo;, now how do you animate it?? thats where unity&rsquo;s animation system enters.</p>
+<img src="https://danielbergshoeff.files.wordpress.com/2019/07/monsterbehaviour-1.png" id="imageRight" style="width: 50%;height: 10%;"/>
+<p>Unity makes use of state machines to handle multiple animation states, and these state machines can get pretty complex depending on the abilities that your player has or how the player can interact with the surroundings etc and each state of the state machine displays a different animation but how does one transition from one animation state another?? using the parameters that you can change through code.Unity lets you add any number of parameters to a state and these parameters can help you transition from one state to another.So let us say that your character is moving so you set up a float parameter for the animation state and when the conditions for the parameter are satisfied the animation state is played.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#75715e">//a simple script that handles the move and jump animations.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">playerAnimation</span> : MonoBehaviour
+{
+    <span style="color:#66d9ef">private</span> Animator <span style="color:#ae81ff">_</span>anim;
+    <span style="color:#75715e">// Start is called before the first frame update
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">void</span> Start()
+    {
+        <span style="color:#ae81ff">_</span>anim = GetComponentInChildren&lt;Animator&gt;();
+    }
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Move(<span style="color:#66d9ef">float</span> move){
+        <span style="color:#ae81ff">_</span>anim.SetFloat(<span style="color:#e6db74">&#34;Move&#34;</span>, Mathf.Abs(move));
+    }
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> jumping(<span style="color:#66d9ef">bool</span> jump){
+        <span style="color:#ae81ff">_</span>anim.SetBool(<span style="color:#e6db74">&#34;jumping&#34;</span>,jump);
+    }
+}
+
+<span style="color:#75715e">//this movement function is from another class.
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> Movement(){
+        <span style="color:#66d9ef">float</span> move = Input.GetAxisRaw(<span style="color:#e6db74">&#34;Horizontal&#34;</span>);
+        <span style="color:#ae81ff">_</span>rigidBody.velocity = <span style="color:#66d9ef">new</span> Vector2(move * <span style="color:#ae81ff">_</span>speed,<span style="color:#ae81ff">_</span>rigidBody.velocity.y);
+        <span style="color:#75715e">//calling the move function of the playerAnimation class.
+</span><span style="color:#75715e"></span>        <span style="color:#ae81ff">_</span>anim.Move(move);
+    }
+</code></pre></div><p>In this codeblock you might be wondering what monobehaviour is, well for now let us just say that it is the base class from which every unity script derives(taken from official unity scripting API) but there is a lot  more to it that this single line.So thats how you set up animations in unity.</p>
+<p>There is a lot more to talk about developing a game but these are the basic steps that you might need to kick off. Since this is a diverse topic I am breaking this post into 2 parts , so in the second part I&rsquo;ll be talking about how to design and develop levels using unity&rsquo;s tile mapping system, the collision system of unity and the enemy AI.</p>
+<h3 id="hope-you-guys-learned-something-new-from-this-post">Hope you guys learned something new from this post.</h3>
+<h2 id="until-the-next-one-peace-">UNTIL THE NEXT ONE, PEACE ;)</h2>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Novels that blow your mind!!</title>
+            <link>https://orangeappleak.github.io/posts/awesomenovels/</link>
+            <pubDate>Mon, 01 Jun 2020 20:38:56 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/awesomenovels/</guid>
+            <description>Written by: A.Karthik It&amp;rsquo;s been really really long since I posted anything, so here is an interesting post that&amp;rsquo;ll blow your brains out(you can test it out if you want). A lot of people really love reading books but struggle to find some good reads like me, I am a fan of murder-mysteries and yeah today I&amp;rsquo;ll be sharing my top 5 murder-mysteries to read during the lockdown.Well I have no intention of inducing criminal tendencies, so people who are easily persuaded stay out.</description>
+            <content type="html"><![CDATA[<h3 id="written-by-akarthik">Written by: A.Karthik</h3>
+<p><img src="https://s01.sgp1.digitaloceanspaces.com/large/887760-hwnfdfeavy-1532437330.jpeg" alt="image source: google"></p>
+<p>It&rsquo;s been really really long since I posted anything, so here is an interesting post that&rsquo;ll blow your brains out(you can test it out if you want). A lot of people really love reading books but struggle to find some good reads like me, I am a fan of murder-mysteries and yeah today I&rsquo;ll be sharing my top 5 murder-mysteries to read during the lockdown.Well I have no intention of inducing criminal tendencies, so people who are easily persuaded stay out. * <em>EVIL LAUGH</em> *</p>
+<h2 id="the-list-of-books-that-you-must-read-during-your-quarantine">The list of books that you must read during your quarantine</h2>
+<p>I&rsquo;ll start off with the last one on my list and I won&rsquo;t be revealing to much of anything at all so its a spoiler free post.</p>
+<h3 id="5-one-of-us-is-lying---by-karen-m-mcmanus">#5 One Of Us Is Lying - By Karen M. McManus.</h3>
+<img id="imageLeft" src = "https://m.media-amazon.com/images/S/aplus-media/vc/b614c6f3-b15a-4b27-a704-93b61b207707.jpg"/>
+<p>One of Us is lying is Karen&rsquo;s Debut Novel and it is one of my recent reads.Its not a murder/mystery to be precise, well there is something fishy going on in the plot but its not exactly a mystery. The plot starts with the death of a young boy(stupid,idiotic and alone boy, no offence) who owns a stupid app called &ldquo;About that&rdquo; in which he posts about all the dark secrets of his fellow students. He dies/is murdered when he is sent into detention with 4 other students whose dark secrets were about to be revealed the next day. So the investigation starts with the four students as the prime suspects and yeah there is not much to investigate as the plot concentrates more on the lives of the 4 students. The first half of the story keeps you hooked but when you crack it (and you will if you read carefully,actually you can crack it by reading the image on the left itself) the second half sucks. The whole story revolves around the lives of the 4 students and what they did (but seriously who cares a boy just died and you&rsquo;re worried about the others).I would not recommend this book to people who are looking for some detective action, but I would recommend it for casual readers.</p>
+<p>you can grab it on <a href="https://www.amazon.in/One-Us-Lying-Karen-McManus/dp/1524764728">AMAZON</a> for 350.</p>
+<h3 id="4-angels--demons---by-dan-brown">#4 Angels &amp; Demons - By Dan Brown.</h3>
+<img id="imageRight" src="https://images-na.ssl-images-amazon.com/images/I/61d1QJ0tPhL.jpg"/>
+<p>Not to brag or anything but DAN BROWN is the best at what he does(and that is writing novel&rsquo;s XD), before I talk about the book I beg you not to watch the film cause its the worst.Angels and Demons is a best-selling mystery-thriller, it has everything that you would want.This book is also the first of the Robert Langdon series.The storyline is fast-paced and it keeps you hooked and its a page turner. The books starts of with the death of a scientist whose back is carved with the ILLUMINATI symbol.Robert langdon being a Symbology professor at Harvard is called to investigate the Symbol and then the hunt begins, its race against time. The Storyline dives into the origins of illuminati at the beginning who are on the verge of destroying the whole vatican city with a breakthrough discovery which is stolen from the murdered scientist and our hero Robert Langdon is here to save the day along with the scientists daughter.Dan Brown is known for the details that he provides in his stories, all the structures presented in this book are real life implications but sometimes these details are unnecessary and boring but they wont stop you from reading the book.This book has some many plot twists and if I tell you anything it would be a sin.So grab the book and start reading.</p>
+<p>I would recommed this book to anyone who is interested in fast paced story telling and plot twists.You can find this book on <a href="https://www.amazon.in/Angels-Demons-Robert-Langdon-Brown/dp/0552161268">Amazon</a> priced at 333.</p>
+<h3 id="3-inferno---by-dan-brown">#3 Inferno - By Dan Brown.</h3>
+<img id="imageLeft" src="https://images-na.ssl-images-amazon.com/images/I/91zfvFKnlhL.jpg">
+<p>“I believe that thinking about the problem &hellip;… is your problem.”
+&mdash; Dan Brown, Inferno</p>
+<p>As I told you his stories are really interesting and I could&rsquo;nt help myself by putting another one of his books on the list. This is another Robert Landon series book and you should be addicted to Dan Brown after reading this and if you are not, well its not my choice to make, is it?. This story starts with Robert Langdon waking up in an Italian hospital with no recollection of the past 36 hours, including a mysterious macabre object hidden in his belongings. He is forced to leave the hospital with a resourceful doctor Siena Brooks when a relentless female assassin is trailing them through Florence.Robert along with Sienna must unravel a series of codes, which are the work of a brilliant scientist obsessed with destroying the world,this scientist was on the watchlist of WHO because he is planning something until he suicides.Now if I write anything further it would be a major spoiler # <em>Robert dies at the end</em> # LOL just kidding.This story has major plot twists that you have to read some chapters twice in order to catch up.</p>
+<p>I would recommend this book to everyone who loves to read , You can grab it <a href="https://www.amazon.in/Inferno-Dan-Brown/dp/0593072499">here</a>. I would totally recommend the Hard-Cover version of this book as it is priced very low at 250.</p>
+<h3 id="2-silent-patient---by-alex-michaelides">#2 Silent Patient - By Alex Michaelides.</h3>
+<img id="imageRight" src="https://www.deccanherald.com/sites/dh/files/article_images/2020/05/19/file76dz10rjyo71a09bo1y2-1386543392-1569699001.jpg"/>
+<p>&ldquo;<em>The pages will burn from the friction from your hands turning them</em>&rdquo; - not my quote.</p>
+<p>This is the first book of Alex and my god I am already a die hard fan of this guy, the story telling is massive and precise to the point no additional bullshit and no diversions at all, you just can&rsquo;t stop reading this book once you&rsquo;ve started it. It took me hardly 1 day to finish reading this book, I had to read the finale twice in order for my brain to process what happened. The story starts of with a wife(Alicia Berenson) killng her husband(Gabriel) and she never talks about it ever again, she never opens her mouth.A criminal psychotherapist(Theo Faber) who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations. The ending will hit you so hard (so yeah wear a helmet when you reach the end).I was in a dilemma whether to put this book on #1 or #2 but I have another spot reserved for #1.</p>
+<p>“<strong>You become increasingly comfortable with madness - and not just the madness of others, but your own. We’re all crazy, I believe, just in different ways.</strong>”
+― Alex Michaelides, The Silent Patient</p>
+<p>Ok now I am zipping my mouth  otherwise you would curse me for revealling too much.</p>
+<p>Grab this book <a href="https://www.amazon.in/Silent-Patient-Alex-Michaelides/dp/1250317541">here</a> priced at 305.</p>
+<h3 id="1-the-devotion-of-suspect-x---keigo-higashino">#1 The Devotion Of Suspect X - Keigo Higashino.</h3>
+<img id="imageLeft" src="https://images-na.ssl-images-amazon.com/images/I/71beLYX9LbL.jpg"/>
+<p>I never thought I would read the works of a Japanese writer but Keigo is the best in his game. The book puts your mind at work and to catch up with the story line you need to read most of the chapters twice.This book is the 3rd in the detective Galileo series and by far the author&rsquo;s most acclaimed work.The novel won him numerous awards including the Naoki price which is a highly regarded award in Japan.</p>
+<p>As for the story , Yasuko lives a quiet life, working in a Tokyo bento shop, a good mother to her only child. But when her ex-husband appears at her door without warning one day, her comfortable world is shattered.When Detective Kusanagi of the Tokyo Police tries to piece together the events of that day, he finds himself confronted by the most puzzling, mysterious circumstances he has ever investigated. Nothing quite makes sense, and it will take a genius to understand the genius behind this particular crime&hellip;</p>
+<p>This book is a pure masterpiece! The main excitement lies within the totally ground breaking plot twists,The plot is so nicely written that it keeps u hooked up until the last word!.</p>
+<p>Its a must read on my list , you can get it <a href="https://www.amazon.in/Devotion-Suspect-X-Keigo-Higashino/dp/0349138737">here</a> at 330.</p>
+<p>Thats it for today, but I&rsquo;ll come up with more amazing books to read (because to recommend a book you have to read the book right? LOL).</p>
+<h3 id="hope-this-post-helped-you-pick-the-right-book-to-read-well-if-it-did-you-must-consider-allowing-notifications-for-more-interesting-posts">Hope this post helped you pick the right book to read, well if it did you must consider allowing notifications for more interesting posts.</h3>
+<h1 id="until-the-next-post-peace-">UNTIL THE NEXT POST, PEACE ;).</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Photography</title>
+            <link>https://orangeappleak.github.io/posts/photography/</link>
+            <pubDate>Thu, 07 May 2020 19:41:51 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/photography/</guid>
+            <description>Written by: Vipul People:&amp;ldquo;YOU SHOULD NOT BE MAKING PROMISES THAT YOU CANT KEEP BRUH&amp;rdquo;.
 I know, I know its been long since i posted anything because I had a lot of things happening in MINECRAFT, yeah thats true but I won&amp;rsquo;t be getting carried away by that now(I should write about minecraft someday tho).
 So as of now I have written a few posts (YAY for that), but most of them were related to programming and computer stuff , I thought why not make the blog a little interesting by talking about some basic photography(Everyone loves clicking good pics so keep reading).</description>
-    </item>
-    
-    <item>
-      <title>Version control</title>
-      <link>https://orangeappleak.github.io/posts/versioncontrol/</link>
-      <pubDate>Thu, 16 Apr 2020 14:17:03 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/versioncontrol/</guid>
-      <description>Written by: Karthik. Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.
+            <content type="html"><![CDATA[<h3 id="written-by-vipul">Written by: Vipul</h3>
+<p><img src="https://images.unsplash.com/photo-1516724562728-afc824a36e84?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80" alt="image source: google"></p>
+<p>People:&ldquo;YOU SHOULD NOT BE MAKING PROMISES THAT YOU CANT KEEP BRUH&rdquo;.</p>
+<p>I know, I know its been long since i posted anything because I had a lot of things happening in MINECRAFT, yeah thats true but I won&rsquo;t be getting carried away by that now(I should write about minecraft someday tho).</p>
+<p>So as of now I have written a few posts (YAY for that), but most of them were related to programming and computer stuff , I thought why not make the blog a little interesting by talking about some basic photography(Everyone loves clicking good pics so keep reading).</p>
+<p>The author of this post is a great photographer and I am currently working on his website that&rsquo;ll help him to show off his skills(sooner or later the website will be completed and you can check it out too).</p>
+<p>SO WITHOUT FURTHER ADO LETS JUMP IN.</p>
+<h2 id="the-basics-of-the-camera">the basics of <em>&ldquo;THE CAMERA&rdquo;</em></h2>
+<p>Everyone knows what a camera is, but very few people understand the right way to use it(that my friends is a QUOTE ⊂(◉‿◉)つ).Anyone who has the urge to click awesome pictures must first learn the basics of using a camera( and dont think that you know how to use one, cause believe me you dont (ಥ﹏ಥ) ).</p>
+<p>Lets break down the first and the foremost basic thing <strong>that is powering on a camera</strong> well if you can&rsquo;t then don&rsquo;t worry <strong>YOU&quot;LL ALWAYS FIND A CORNER TO QUESTION YOUR EXISTENCE</strong>(dont take it seriously I was kidding LOL).Once the camera is powered on we can talk about EXPOSURE now, exposure is one thing that amateurs really struggle with.</p>
+<p>By understanding what exposure is, you can get started pretty quickly.</p>
+<ul>
+<li>
+<p>Exposure is nothing but the amount of light entering into your camera&rsquo;s sensor.</p>
+</li>
+<li>
+<p>It is component that decides how bright your image should be? or how dark should it be?.</p>
+</li>
+<li>
+<p>Another interesting thing you should know is that exposure only effects the highlights of the image.</p>
+</li>
+</ul>
+<p>There are different types of exposures as mentioned below, each of them has slight differences from the others.</p>
+<ul>
+<li>
+<h3 id="under-exposed">Under Exposed:</h3>
+<ul>
+<li>An underexposed image is the sort of photograph that one might consider to be too dark. Here is a good example of such a photograph:</li>
+</ul>
+<p><img src="https://cdn.photographylife.com/wp-content/uploads/2015/01/Under-and-Overexposure_Underexposure-Sample.jpg" alt="source: google"></p>
+</li>
+<li>
+<h3 id="over-exposed">Over Exposed:</h3>
+<ul>
+<li>Overexposure is the complete opposite of the previously defined term. An image that is brighter than it should be can be considered overexposed. When too much light is allowed during exposure, the result is an overly bright photograph.</li>
+</ul>
+<p><img src="https://cdn.photographylife.com/wp-content/uploads/2015/01/Under-and-Overexposure_Overexposure-Sample.jpg" alt="source: google"></p>
+</li>
+<li>
+<h3 id="perfect-exposure">Perfect Exposure:</h3>
+<ul>
+<li>This is perhaps the most obvious and self-explanatory case. Correctly exposed image is the one that feels just bright or dark enough so that both the shadows and highlights are as they feel the most natural and comfortable to look at.</li>
+</ul>
+<p><img src="https://cdn.photographylife.com/wp-content/uploads/2015/01/Under-and-Overexposure_Correct-Exposure-Sample-960x640.jpg" alt="source: google"></p>
+</li>
+<li>
+<h3 id="long-exposure">Long Exposure:</h3>
+<ul>
+<li>Long exposure photography is when we are using a much longer shutter speed, and it&rsquo;s usually used as a specific technique to achieve a certain effect.</li>
+</ul>
+<p><img src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/zyq5i-WZ30FMVN6TX-Full-Image_GalleryBackground-en-US-1466132034211._SX1080_.jpg" alt="source: google"></p>
+</li>
+<li>
+<h3 id="double-exposure">Double Exposure:</h3>
+<ul>
+<li>In photography and cinematography, a multiple exposure is the superimposition of two or more exposures to create a single image, and double exposure has a corresponding meaning in respect of two images.</li>
+</ul>
+<p><img src="https://jooinn.com/images/double-exposure-1.jpg" alt="source: google"></p>
+</li>
+</ul>
+<h2 id="lets-step-up-a-little">Lets step up a little.</h2>
+<p>One of the three most important settings in photography is <strong>Shutter Speed</strong>, the other two being <strong>Aperture</strong> and <strong>ISO</strong>.Lets break them down on by one.</p>
+<ul>
+<li>
+<p>Shutter Speed: The amount of time during which the shutter of the camera is open is know as the shutter speed, well that is pretty obvious but did you know that Shutter speed can also change the brightness of your image, it is also responsible for creating dynamic effects such as freezing action and bluring the image.</p>
+<ul>
+<li>1/4000 (max) = four thousand parts of a second.</li>
+<li>30&quot;(min) = 30 seconds (it obvious)
+You decrease the shutter speed to show the motion of the subject.
+You increase the shutter speed to freeze the motion of the subject.
+NOTE:When you increase the shutter speed the exposure decreases
+and when you decrease it the exposure increases.</li>
+</ul>
+</li>
+<li>
+<p>Apperture: It can be defined as the opening in a lens through which light passes to enter the camera. It is an easy concept to understand if you just think about how your eyes work. As you move between bright and dark environments, the iris in your eyes either expands or shrinks, controlling the size of your pupil.
+Aperture has several effects on your photographs. One of the most important is the brightness, or exposure, of your images. As aperture changes in size, it alters the overall amount of light that reaches your camera sensor – and therefore the brightness of your image.</p>
+</li>
+<li>
+<p>ISO: In Digital Photography ISO measures the sensitivity of the image sensor.
+The same principles apply as in film photography – the lower the number the less sensitive your camera is to light and the finer the grain.Higher numbers mean your sensor becomes more sensitive to light which allows you to use your camera in darker situations. The cost of doing so is more grain (although cameras are improving all the time and today many are able to use high ISO settings and still get very useable images).</p>
+</li>
+</ul>
+<h3 id="hope-this-post-brings-out-the-better-photographer-in-you">Hope this post brings out the better photographer in you.</h3>
+<h3 id="want-to-get-updated-whenever-a-new-post-drops-consider-subscribing-to-the-notifications-then">Want to get updated whenever a new post drops, consider subscribing to the notifications then.</h3>
+<h3 id="keep-learning-stay-home-and-most-important-stay-safe">Keep learning, Stay Home and most important Stay Safe.</h3>
+<h1 id="until-the-next-postpeace-">UNTIL THE NEXT POST,PEACE ;).</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Version control</title>
+            <link>https://orangeappleak.github.io/posts/versioncontrol/</link>
+            <pubDate>Thu, 16 Apr 2020 14:17:03 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/versioncontrol/</guid>
+            <description>Written by: Karthik. Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.
 What is version control and why do you need it? From the title, Version Control, you might have guessed the context of this post and your right(dont get too excited, cause you&amp;rsquo;re partially right).</description>
-    </item>
-    
-    <item>
-      <title>Lets.Talk Programming.</title>
-      <link>https://orangeappleak.github.io/posts/letstalkprogramming/</link>
-      <pubDate>Fri, 03 Apr 2020 17:46:59 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/letstalkprogramming/</guid>
-      <description>All Are Equal before Programming Overview Hello There , are you a beginner at programming ? If the Answer is YES , then this Article is for You. If the Answer is NO , then this is definately for you. If you are a Programmer , then you should feel like all programming languages are the same. Programming languages and Classified as :
+            <content type="html"><![CDATA[<h3 id="written-by-karthik">Written by: Karthik.</h3>
+<p><img src="https://www.abstract.com/wp-content/uploads/version-history-header-1440x720.jpg" alt="image source: google"></p>
+<p>Hello my fellow wizards, hope you are making the most of your quarantine season, its been a boring ride just sitting at home and doing nothing, So here i am saving you from the clutches of boredom with an interesting post.</p>
+<h2 id="what-is-version-control-and-why-do-you-need-it">What is version control and why do you need it?</h2>
+<p>From the title, <strong>Version Control</strong>, you might have guessed the context of this post and your right(dont get too excited, cause you&rsquo;re partially right).</p>
+<p>Whenever you are developing something may that be a software or a website or just some project that you have been working on with some other people, you may have come across many problems that relate to keeping track of your changes and contributions to the project. When these changes and contributions are continuous you might as well lose track of what needs to be done and what is currently going on with the project, in other words you might get confused and loose your head, to avoid this confusion we need to keep track of the changes that we make and that is what version control does.</p>
+<p>Version control is a component that keeps track of all the changes that you make to a specific file or to a set of files. This component is treated more as a necessity than a tool for many companies as it makes their work easier. It can be considered as a book or a database that keeps records of different changes that you make, it contains all the changes and historical edits of your project, so if you mess something up ( due to your ineptitude (▀̿Ĺ̯▀̿ ̿) ) you can always start from the previous versions instead of starting from the beginning(Thank Version Control for this).</p>
+<p>There are many version control systems but the most popular right now is GIT, and guess what??
+Tech giants like Google, Twitter, Facebook, Netflix and many more make use of GIT. The main thing that puts GIT on top of others is the ability to perform operations locally, nearly all operations are done locally and this makes git faster and better. GIT lets you share your changes and contributions with your collegues and it even lets you clone the work of other people in order to make changes to their work.</p>
+<p>Git allows you to have multiple branches of a single repositary and these branches can be independent of each other. What if you have many repositaries and now its difficult to keep track of these repositories?? GITHUB has you covered.Github is a GIT repositary hosting service whereas GIT is a command line tool. It provides a web-based graphical interface for your repositaries and all the changes that you make using GIT can be viewed on GITHUB too. It has many other features and you can check out over <a href="https://github.com/explore">here</a>.</p>
+<h2 id="some-basic-git-commands">Some basic GIT commands.</h2>
+<p>Having discussed what git is , lets jump into how to use it. First of all you need to download the latest version of git from <a href="https://git-scm.com/downloads">here</a> or if you already have git installed you can get the latest version by cloning the git repositary</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git clone https://github.com/git/git
+</code></pre></div><p>after setting up the GIT tool you can head over to <a href="https://github.com">GITHUB</a> and create a new account if you dont have one and once you have an account created you can go ahead and create a new repositary and give it a name.</p>
+<p>After creating a new repositary,
+<strong>It should look something like this:</strong>
+<img src="/images/git_test.png" alt=""></p>
+<p>It might be a bit overwhelming at first but once you start using it you&rsquo;ll get the hang of it.</p>
+<p>The first command that we will be using is <em><strong>git clone</strong></em> and it is a pretty basic one,what it does is it saves a copy of the specified repositary on your local machine so that you can make changes locally and then once you&rsquo;re satisfied with the changes you can push it to GITHUB.</p>
+<p>So now go to the repositary that you just created and copy the specified url of the repositary.
+<img src="/images/git_test1.png" alt=""></p>
+<p>Open up your terminal and cd to where you want the repositary to be cloned and after that all you need to do is</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/orangeappleak/test.git
+Cloning into <span style="color:#e6db74">&#39;test&#39;</span>...
+remote: Enumerating objects: 3, <span style="color:#66d9ef">done</span>.
+remote: Counting objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+remote: Compressing objects: 100% <span style="color:#f92672">(</span>2/2<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+remote: Total <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, reused <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, pack-reused <span style="color:#ae81ff">0</span>
+Receiving objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+</code></pre></div><p>It shows a warning saying that we have cloned an empty repositary and its true but nothing to worry about, now you can see that the repositary has been cloned or copied to the specified directory.</p>
+<p>Now head over to the directory where the cloned repositary exists and create a new file, I am going to create a html file but you can create any type of file.</p>
+<p>Our github repositary is still empty, so lets add the file that we just created to our GITHUB repo.
+Here we make use of the command <em><strong>git add</strong></em>. This command informs GIT which files are going to be added to the repo(short for repositary).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add hello.html
+</code></pre></div><p>hello.html is the name of my file, you need to specify the name of your file while executing the above command. So now GIT is aware of which files to add to the repo, now lets save the changes and add a short message in order to recognize what changes we have made. To do this we use the <em><strong>git commit</strong></em> command with a message flag as follows.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;added a new line to the file&#34;</span>
+<span style="color:#f92672">[</span>master <span style="color:#f92672">(</span>root-commit<span style="color:#f92672">)</span> 0ac0142<span style="color:#f92672">]</span> added a new line
+ <span style="color:#ae81ff">1</span> file changed, <span style="color:#ae81ff">10</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>
+ create mode <span style="color:#ae81ff">100644</span> hello.html
+</code></pre></div><p>The message can be anything relating to the changes that you make, it makes it easier to recognize what changes have been made at a glance.
+The final thing we need to do is to puch the file we created to our github repo. We make use of <em><strong>git push</strong></em> command in order to push the file or the changes that we made to our github repo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push
+Enumerating objects: 3, <span style="color:#66d9ef">done</span>.
+Counting objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+Delta compression using up to <span style="color:#ae81ff">12</span> threads
+Compressing objects: 100% <span style="color:#f92672">(</span>2/2<span style="color:#f92672">)</span>, <span style="color:#66d9ef">done</span>.
+Writing objects: 100% <span style="color:#f92672">(</span>3/3<span style="color:#f92672">)</span>, <span style="color:#ae81ff">361</span> bytes | 361.00 KiB/s, <span style="color:#66d9ef">done</span>.
+Total <span style="color:#ae81ff">3</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, reused <span style="color:#ae81ff">0</span> <span style="color:#f92672">(</span>delta 0<span style="color:#f92672">)</span>, pack-reused <span style="color:#ae81ff">0</span>
+To https://github.com/orangeappleak/test.git
+ * <span style="color:#f92672">[</span>new branch<span style="color:#f92672">]</span>      master -&gt; master
+
+</code></pre></div><p>After all the above steps or commands are executed you can head over to your repositaries on github and now you can see that the file that you created on your local machine is added to your github repositary along with the short message.
+<img src="/images/git_test2.png" alt="">
+Now the people working along with you can see what changes you have made, they can also clone the repo and make changes to your file and then push it back to your repositary. In this way you can keep track of all your changes and versions using git.</p>
+<p>Now let us say that someone has made changes on your github repositary using the inbuilt edit mode that github provides, these changes are not reflected on your local machine. If we want to update the local files to the changes made on our github repo we make use of the <em><strong>git pull</strong></em> command. This command updates all the files on your local machine as per the changes made on your github repositary.</p>
+<p>Another useful command is the <em><strong>git log</strong></em> command, it lists all the changes made by you as well as other people.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git log
+commit 0ac014267063ae3ae2a7a7c0185e72126e7a563f <span style="color:#f92672">(</span>HEAD -&gt; master, origin/master<span style="color:#f92672">)</span>
+Author: orangeappleak &lt;email@gmail.com&gt;
+Date:   Thu Apr <span style="color:#ae81ff">16</span> 15:55:38 <span style="color:#ae81ff">2020</span> +0530
+
+    added a new line
+
+</code></pre></div><p>So if you messed up and want to restore to the previous changes you can make use of the <em><strong>git reset [commit]</strong></em> where commit is the unique identification number (hashcode) used by github, the commit can be obtained from the log.</p>
+<p>I have commited some new changes and then moved back to the previous version as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">D:\projects\test_websites\test&gt;git add *</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git commit -m &#34;added a new heading&#34;</span>
+[<span style="color:#ae81ff">master 4fe0c68] added a new heading</span>
+ <span style="color:#ae81ff">1</span> <span style="color:#ae81ff">file changed, 1 insertion(+)</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git push</span>
+<span style="color:#f92672">Enumerating objects</span>: <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">done.</span>
+<span style="color:#f92672">Counting objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (5/5), done.</span>
+<span style="color:#ae81ff">Delta compression using up to 12 threads</span>
+<span style="color:#f92672">Compressing objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (2/2), done.</span>
+<span style="color:#f92672">Writing objects</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (3/3), 323 bytes | 323.00 KiB/s, done.</span>
+<span style="color:#ae81ff">Total 3 (delta 1), reused 0 (delta 0), pack-reused 0</span>
+<span style="color:#f92672">remote: Resolving deltas</span>: <span style="color:#ae81ff">100</span><span style="color:#ae81ff">% (1/1), completed with 1 local object.</span>
+<span style="color:#ae81ff">To https://github.com/orangeappleak/test.git</span>
+   <span style="color:#ae81ff">0ac0142..4fe0c68  master -&gt; master</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git log</span>
+<span style="color:#ae81ff">commit 4fe0c6813c75f43ec9c270036abbbd8bc0d50f1d (HEAD -&gt; master, origin/master)</span>
+<span style="color:#f92672">Author</span>: <span style="color:#ae81ff">orangeappleak &lt;appannagarikarthik.123@gmail.com&gt;</span>
+<span style="color:#f92672">Date</span>:   <span style="color:#ae81ff">Thu Apr 16 16:36:38 2020 +0530</span>
+
+    <span style="color:#ae81ff">added a new heading</span>
+
+<span style="color:#ae81ff">commit 0ac014267063ae3ae2a7a7c0185e72126e7a563f</span>
+<span style="color:#f92672">Author</span>: <span style="color:#ae81ff">orangeappleak &lt;appannagarikarthik.123@gmail.com&gt;</span>
+<span style="color:#f92672">Date</span>:   <span style="color:#ae81ff">Thu Apr 16 15:55:38 2020 +0530</span>
+
+    <span style="color:#ae81ff">added a new line</span>
+
+<span style="color:#ae81ff">D:\projects\test_websites\test&gt;git reset --hard 0ac014267</span>
+<span style="color:#ae81ff">HEAD is now at 0ac0142 added a new line</span>
+</code></pre></div><h3 id="hope-this-post-has-helped-you-learn-something-new">Hope this post has helped you learn something new,</h3>
+<h3 id="keep-learning--keep-programming">keep learning , keep programming</h3>
+<h1 id="until-the-next-post">UNTIL THE NEXT POST,</h1>
+<h1 id="adios-amigos">ADIOS AMIGOS</h1>
+<h3 id="---з---ʖ-ε----">̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿</h3>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Lets.Talk Programming.</title>
+            <link>https://orangeappleak.github.io/posts/letstalkprogramming/</link>
+            <pubDate>Fri, 03 Apr 2020 17:46:59 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/letstalkprogramming/</guid>
+            <description>All Are Equal before Programming Overview Hello There , are you a beginner at programming ? If the Answer is YES , then this Article is for You. If the Answer is NO , then this is definately for you. If you are a Programmer , then you should feel like all programming languages are the same. Programming languages and Classified as :
  Functional Logical Object Oriented  They may be classified into Different types , but all are Same.</description>
-    </item>
-    
-    <item>
-      <title>Turtle, not an animal, But a python package.</title>
-      <link>https://orangeappleak.github.io/posts/turtlemodule/</link>
-      <pubDate>Thu, 02 Apr 2020 21:34:42 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/turtlemodule/</guid>
-      <description>Introduction Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.TURTLE. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.
+            <content type="html"><![CDATA[<h2 id="all-are-equal-before-programming">All Are Equal before Programming</h2>
+<p><img src="https://www.assignmentexpert.com/blog/wp-content/uploads/2019/10/hardest-programming-language.png" alt="image cannot be displayed"></p>
+<h2 id="overview">Overview</h2>
+<p>Hello There , are you a beginner at programming ? If the Answer is YES , then this Article is for You. If the Answer is NO , then this is definately for you.
+If you are a Programmer , then you should feel like all programming languages are the same.
+Programming languages and Classified as :</p>
+<ul>
+<li>Functional</li>
+<li>Logical</li>
+<li>Object Oriented</li>
+</ul>
+<p>They may be classified into Different types , but all are Same. I will try to make you feel the same.
+All the Programming Languages have the same basic features :</p>
+<h2 id="input-and-output">Input and Output</h2>
+<ul>
+<li>Python :
+<ul>
+<li>Input : raw_input() [Older Versions ] , input() [Latest Versions]</li>
+<li>Output : print()</li>
+</ul>
+</li>
+<li>Java :
+<ul>
+<li>Input : Scanner Class , BufferedReader are some of the ways to get input in Java</li>
+<li>Output : System.out.println(),System.out.print()</li>
+</ul>
+</li>
+<li>C :
+<ul>
+<li>Input : scanf(“%d”,&amp;i)</li>
+<li>Output : printf(“%d”,i)</li>
+</ul>
+</li>
+<li>C++ :
+<ul>
+<li>Input : cin&raquo;</li>
+<li>Output : cout&laquo;</li>
+</ul>
+</li>
+</ul>
+<h2 id="variables-and-data-types">Variables and Data Types:</h2>
+<p>In Python , there is no need for you to specify the Data Type for the Variables and return type for the Function. In C Based  ( C , C++, Java, C#, Objective C, Go) Languages you should specify the Data Type for the Variables. In Some Languages like Swift , There is a Concept called as Type Inferencing  which makes the Specification of Data type while declaring the Variable Optional , i.e, You can specify the Data type , or the Language can Infer the Data type automatically.  Apart from that Every programming allows you to store Data in Variables and manipulate them.</p>
+<h2 id="functions-">Functions :</h2>
+<p>Every programming Language has this Solid Feature called as Functions / Methods / Procedures. The Syntax may be different , but all the Functions just carry some instructions of code, which can be called any number of Times. If You are Using an Object Oriented Language you may call them Methods , but what you do is you keep the so called functions in your Classes and you feel like You have written a Method ( Some Low Voice Pathetic Background Music Playing). Just kidding. Functions makes your Code easy to Debug and Test. There are a Lot of Advantages of these functions. We will make another post on that.</p>
+<h2 id="loops-">Loops :</h2>
+<p><strong>Loops are used for executing the same piece of code again and again , for a large number of times.</strong></p>
+<p><strong>Loops are used for executing the same piece of code again and again , for a large number of times.</strong></p>
+<p><strong>Loops are used for executing the same piece of code again and again , for a large number of times.</strong></p>
+<p><strong>Loops are used for executing the same piece of code again and again , for a large number of times.</strong></p>
+<p>Without typing the Above Lines i could have written them like this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">4</span>):
+	print(<span style="color:#e6db74">&#34;The Above Text&#34;</span>)
+
+</code></pre></div><p>Done. See how simple is that.
+If you consider other programming languages:
+Java , C , C++ :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">
+<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>i<span style="color:#f92672">=</span>1<span style="color:#f92672">;</span>i<span style="color:#f92672">&lt;</span>10<span style="color:#f92672">;</span>i<span style="color:#f92672">++){</span>
+    a<span style="color:#f92672">=</span>a<span style="color:#f92672">+</span>5<span style="color:#f92672">;</span> 
+<span style="color:#f92672">}</span> 
+<span style="color:#75715e">// I thought of writing some more lines of code , but i didn’t because i am lazy and you are too.
+</span><span style="color:#75715e"></span>
+</code></pre></div><p>Python :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">1</span>):
+    print(i)
+
+</code></pre></div><p>Swift :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">
+<span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1.</span>..<span style="color:#ae81ff">9</span>{
+    print(i)
+}
+
+</code></pre></div><h2 id="conditional--statements--">Conditional  Statements  :</h2>
+<p>Python :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">
+youlikethispost <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+
+<span style="color:#66d9ef">if</span>(youlikethispost):
+	print(<span style="color:#e6db74">&#34;share it&#34;</span>)
+
+<span style="color:#66d9ef">else</span>:
+	print(<span style="color:#e6db74">&#34;share it&#34;</span>)
+
+</code></pre></div><p>C Based Languages :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">
+<span style="color:#66d9ef">if</span>(<span style="color:#ae81ff">2</span><span style="color:#f92672">&lt;</span><span style="color:#ae81ff">3</span>){
+	<span style="color:#75715e">//2 is ofcourse less than 3.
+</span><span style="color:#75715e"></span>}
+
+<span style="color:#66d9ef">else</span>{
+	<span style="color:#75715e">// If you are looking at else , then you don’t know that 2 is less than 3
+</span><span style="color:#75715e"></span>}
+
+</code></pre></div><h2 id="comments-">Comments :</h2>
+<p>C Based Languages :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">
+<span style="color:#75715e">// Single Line Comment
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">Multi Line
+</span><span style="color:#75715e">Comment
+</span><span style="color:#75715e">*/</span> 
+
+</code></pre></div><p>Python :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#75715e"># this is a Single Line Comment</span>
+
+<span style="color:#75715e"># this</span>
+<span style="color:#75715e"># is </span>
+<span style="color:#75715e"># a</span>
+<span style="color:#75715e"># multi</span>
+<span style="color:#75715e"># line</span>
+<span style="color:#75715e"># comment</span>
+
+<span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="color:#e6db74">this 
+</span><span style="color:#e6db74">is 
+</span><span style="color:#e6db74">also 
+</span><span style="color:#e6db74">a 
+</span><span style="color:#e6db74">multi-line comment
+</span><span style="color:#e6db74">
+</span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+
+</code></pre></div><h2 id="operators-">Operators :</h2>
+<p>All the programming languages have Mathematical Operators like +,-,*,/,%  and Comparison Operators like &lt;,&lt;=,&gt;,&gt;=,==,!= and Logical Operators like &amp;&amp; and || , etc.
+But Some languages give you more. Python gives you Exponentiation Operator ** and Integer Division Operator //.</p>
+<h2 id="goals">Goals</h2>
+<p>Language may Support Object Oriented Concepts or they may not. But what you can do with one can be done by others. C Language which don&rsquo;t have support with OOP&rsquo;s concepts is used as the core base for construction of various operating systems and softwares that we use today. Languages May differ by execution speed, whether they are compiled or interpreted , but IF you Learn one programming language perfectly , then you can conquer all of them pretty easily, only the Syntax changes. If you know English , you can learn Spanish by communicating in English(idk whether that makes any sense or not). The Same Way Learn One Programming Language and other languages have the same concepts with minor modifications.
+I have just provided an overview of all the languages.
+I have shown you in this post that all the programming languages have Loops , Conditionals , Functions , Operators , Input /  Output and even Comments,&ldquo;EVEN COMMENTS?&rdquo; , what ? <strong>Comments are feeling left out now and its all because of you</strong>, So please comment your code make comments proud again.</p>
+<p>Now If You Agree with me that all are the same. I urge you to check my next Post : “ Tutorial on Swift” . <strong>Swift allows you to create your own Application for iPhone , or Softwares for Mac. Swift is a Very Clean and Good programming Language.</strong></p>
+<h2 id="until-then-systemoutprint">UNTIL THEN, System.out.print</h2>
+<h2 id="peace-">(&ldquo;PEACE ;&quot;);</h2>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Turtle, not an animal, But a python package.</title>
+            <link>https://orangeappleak.github.io/posts/turtlemodule/</link>
+            <pubDate>Thu, 02 Apr 2020 21:34:42 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/turtlemodule/</guid>
+            <description>Introduction Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.TURTLE. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.
 Let&amp;rsquo;s get Started with Turtle.</description>
-    </item>
-    
-    <item>
-      <title>Hmmmm, MAC??</title>
-      <link>https://orangeappleak.github.io/posts/hmmmac/</link>
-      <pubDate>Thu, 02 Apr 2020 21:14:53 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/hmmmac/</guid>
-      <description>Written by: Thriven. We are all familiar with Apple&amp;rsquo;s laptop Macbook. For those who aren&amp;rsquo;t here is a brief idea, MacBook Air, Macbook and MacBook Pro are Apple&amp;rsquo;s versions of laptop. No one addresses it as a laptop actually, everyone calls it a Mac or Macbook. If you own a Macbook then you just have a Macbook not a laptop. These are really expensive like reaaaalllly expensive, a basic version of Macbook costs around 1 lakh, you want some accessories?</description>
-    </item>
-    
-    <item>
-      <title>Hugo&#39;s file Structure.</title>
-      <link>https://orangeappleak.github.io/posts/hugofilestructure/</link>
-      <pubDate>Thu, 02 Apr 2020 12:15:38 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/hugofilestructure/</guid>
-      <description>Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</description>
-    </item>
-    
-    <item>
-      <title>Why and how I created this blog??</title>
-      <link>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</link>
-      <pubDate>Fri, 27 Mar 2020 15:37:44 +0530</pubDate>
-      
-      <guid>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</guid>
-      <description>Written by: Karthik. Introduction First of all welcome to my fellow WIZARDS and thank you for taking your time to read this.
+            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>Hello my fellow programmers , today we will be talking about an interesting animal, Yeah you guessed it right.<em>TURTLE</em>. Have you heard about the Turtle Module in Python ? It is one of my Favorite modules as it allows you to architect and draw the best designs that you have in your mind. It is very simple and easy to use , yet powerful for designing.</p>
+<p><img src="https://i.ytimg.com/vi/_FxzEAIWvtE/maxresdefault.jpg" alt="image cannot be displayed"></p>
+<p>Let&rsquo;s get Started with Turtle. I suggest you to execute the following Commands IDLE, to understand what it does.</p>
+<h2 id="step-1-import-turtle-module">Step 1. Import turtle Module</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> turtle
+</code></pre></div><h2 id="step-2-create-your-own-turtle--give-it-any-name-it-follows-your-instructions-i-named-mine-as-t">Step 2. Create your own Turtle , Give it any name. It follows your Instructions. I named mine as t.</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t <span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+</code></pre></div><p><em><strong>Note : Immediately after you execute the above command a new Python window will open which has an arrow mark facing to East.</strong></em></p>
+<h2 id="step-3-understanding-how-it-all-works">Step 3. Understanding how it all works</h2>
+<p><em>From here on observe the Execution of the following code carefully</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">100</span>)  <span style="color:#75715e"># 1.1</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">200</span>)  <span style="color:#75715e"># 1.2</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>bk(<span style="color:#ae81ff">200</span>)  <span style="color:#75715e"># 1.3</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>bk(<span style="color:#ae81ff">100</span>)
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>bk(<span style="color:#ae81ff">100</span>)
+</code></pre></div><p>C: have you observed what just happenned? You must have cause your smart poeple after all.
+After you entered Line 1.1, your arow moved along the east direction for 100 units and then when you executed the second line your arrow should have gone 200 units straight right?.  Similarly the next three lines move your arrow backwards to 200 , 100 and 100 units respectively.
+Now you must be Wondering Where your t(the turtle you named) actually is ?
+The arrow that is gallivanting across your screen is your little turtle , its the default shape that is assigned to your turtle.
+Execute the below line of code , to see your Turtle.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>shape(<span style="color:#960050;background-color:#1e0010">“</span>turtle<span style="color:#960050;background-color:#1e0010">”</span>)
+</code></pre></div><p>Expansions</p>
+<p>E:fd → Forward Movement of Turtle / Used to make your Turtle go Forward</p>
+<p>E:bk → Backward Movement of Turtle / Used to make your Turtle come Backward</p>
+<p>Note : For the Movement of  the Turtle we will use only two Basic commands forward and backward. For making it rotate we use the methods lt() and rt() {Left and Right} which take an integer as parameter and that integer parameter specifies the number of degrees your turtle will turn.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+</code></pre></div><p>The Above command instructs the turtle to move in the left direction. 90 degrees.
+Now let us make this even more simple.
+Let us assume your turtle is facing the East Direction .</p>
+<p><img src="/images/turtle.png" alt="cannot display image"></p>
+<p>All of the following commands are explained wrt the position of turtle in East Direction.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>) <span style="color:#75715e">#Makes Your Turtle turn to North Direction </span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>rt(<span style="color:#ae81ff">90</span>) <span style="color:#75715e">#Makes Your Turtle turn to South Direction </span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">180</span>) <span style="color:#75715e">#Makes Your Turtle turn to West Direction </span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>rt(<span style="color:#ae81ff">180</span>) <span style="color:#75715e">#Makes Your Turtle turn to West  Direction </span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">270</span>) <span style="color:#75715e">#Makes Your Turtle turn to South Direction </span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>rt(<span style="color:#ae81ff">270</span>) <span style="color:#75715e">#Makes Your Turtle turn to North Direction </span>
+</code></pre></div><p>Now why dont you try this : Try to move your turtle in a Square.
+(Hoping that you sincerely tried it)
+here is how to do it :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">Import turtle
+t  <span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">100</span>)
+t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">100</span>)
+t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">100</span>)
+t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+t<span style="color:#f92672">.</span>fd(<span style="color:#ae81ff">100</span>)
+</code></pre></div><p>above I drew the circle with left command. Do the same with rt() command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">&gt;&gt;&gt;</span> t<span style="color:#f92672">.</span>circle(<span style="color:#ae81ff">50</span>)
+</code></pre></div><p>If you execute the above command your Turtle draws a circle with radius 50.</p>
+<p>Now try this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> turtle <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+t <span style="color:#f92672">=</span> Turtle()
+<span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">4</span>):
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">11</span>):
+		t<span style="color:#f92672">.</span>circle(i<span style="color:#f92672">*</span><span style="color:#ae81ff">10</span>)
+	t<span style="color:#f92672">.</span>lt(<span style="color:#ae81ff">90</span>)
+<span style="color:#75715e"># wait until it completes , after seeing it youll know.</span>
+</code></pre></div><p>What you just saw is some really basic thing you could do with Turtle. There&rsquo;s a lot more to learn about it.</p>
+<h1 id="keep-learning-and-improving">Keep learning and improving.</h1>
+<h1 id="until-the-next-post-peace-">UNTIL THE NEXT POST, PEACE ;)</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hmmmm, MAC??</title>
+            <link>https://orangeappleak.github.io/posts/hmmmac/</link>
+            <pubDate>Thu, 02 Apr 2020 21:14:53 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/hmmmac/</guid>
+            <description>Written by: Thriven. We are all familiar with Apple&amp;rsquo;s laptop Macbook. For those who aren&amp;rsquo;t here is a brief idea, MacBook Air, Macbook and MacBook Pro are Apple&amp;rsquo;s versions of laptop. No one addresses it as a laptop actually, everyone calls it a Mac or Macbook. If you own a Macbook then you just have a Macbook not a laptop. These are really expensive like reaaaalllly expensive, a basic version of Macbook costs around 1 lakh, you want some accessories?</description>
+            <content type="html"><![CDATA[<h4 id="written-by-thriven">Written by: Thriven.</h4>
+<p><img src="https://icdn2.digitaltrends.com/image/digitaltrends/16-inch-macbook-pro-feature.png" alt="Cannot display image"></p>
+<p>We are all familiar with Apple&rsquo;s laptop Macbook. For those who aren&rsquo;t here is a brief idea, MacBook Air, Macbook and MacBook Pro are Apple&rsquo;s versions of laptop. No one addresses it as a laptop actually, everyone calls it a Mac or Macbook. If you own a Macbook then you just have a Macbook not a laptop. These are really expensive like reaaaalllly expensive, a basic version of Macbook costs around 1 lakh, you want some accessories? Well guess what <em>Apple gives you a lot of accessories for free until you pay more money</em>. Prices of high end versions, could touch the sky, get upto 4lakhs. These laptops are not meant for playing games cause they do not have powerful graphic cards,instead they are so soft that you can use it as a mouse pad for gaming, so thats an advantage for the MAC. But these laptops are very useful for content creators(video or photo editors), consuming multimedia and even programmers. Now coming to main part USER EXPERIENCE these are the best in class except for gamers. MacOS is the operating system installed on a Macbook and personally I prefer mac os over Windows.</p>
+<h2 id="lets-talk-about-the-pros-as-well-as-some-cons">Lets talk about the pros as well as some cons:</h2>
+<p>PROS:  There is 0 lag, the UI is very fluid and attractive. Excellent RAM management. Many people who think of getting a laptop prefer Windows because they think they are smart and no they are not(No Offence to the readers). MacOS is easy to use compared to Windows. It has very clean file system, installing and removing apps or softwares is so simple as in a smart phone. Apple&rsquo;s IOS has a huge impact on people in choosing MacOS over windows. Coming to the hardware Macbooks have the best speakers compared to laptops of any other brands. Display is of great quality. Rendering times in Video editing and photo editing are less even in basic Macbook versions.</p>
+<p>CONS:  As I already said Macbooks are very expensive. Any repair could cost you 0 to 40k Rupees. The processors of the basic max versions are not that powerful but we cannot totally rule them out. If you want powerful prossecors then pay more money to apple, See its really simple. Storage upgrades are expensive too, cause why not, after all its their product right?. The expensiveness is the main reason why people choose windows over mac.</p>
+<h2 id="in-the-end">In the End:</h2>
+<p>Macbook is a great laptop. We can cut down the cost if we are able to adjust with a External hard disk. I would say MacOS is between Windows and Linux with windows being worst. You can get a lag free experience like linux, great UI and good security and ofcourse some popularity among your friends, that apple provides you for free.</p>
+<h1 id="until-next-post-peace-">Until next post PEACE ;)</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hugo&#39;s file Structure.</title>
+            <link>https://orangeappleak.github.io/posts/hugofilestructure/</link>
+            <pubDate>Thu, 02 Apr 2020 12:15:38 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/hugofilestructure/</guid>
+            <description>Written By: karthik. The file structure of a hugo generated site. Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.</description>
+            <content type="html"><![CDATA[<h4 id="written-by-karthik">Written By: karthik.</h4>
+<h2 id="the-file-structure-of-a-hugo-generated-site">The file structure of a hugo generated site.</h2>
+<p>Hello there my code wizards, hope you enjoyed my first post and now lets move on to my second one (i need to stop counting my blog posts :/ ). So after reading my first post you might now be wondering what all the files in the root folder do and whats the actual use of them? Today we are just going to discuss that.So buckle up again.</p>
+<h2 id="what-files-are-we-talking-about">What files are we talking about?</h2>
+<p>Hugo like every SSG(Static site generator) has a pretty straight forward file structure and it looks something like this:</p>
+<ul>
+<li>your-site-name:
+<ul>
+<li>&ndash;&gt; archetypes</li>
+<li>&ndash;&gt; config.toml</li>
+<li>&ndash;&gt; content</li>
+<li>&ndash;&gt; data</li>
+<li>&ndash;&gt; layout</li>
+<li>&ndash;&gt; static</li>
+<li>&ndash;&gt; themes</li>
+</ul>
+</li>
+</ul>
+<p>We will discuss each of them below.</p>
+<h2 id="archetypes">Archetypes:</h2>
+<p>so when ever you create a new post using the new command,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">hugo new posts/your-post-name.md
+</code></pre></div><p>the archetypes decide what to put on the front matter of your posts.By default they have date and title of your post, something like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">---
+Title: &#34;My Post&#34;
+Date: date: 2050-03-18T15:37:44+05:30
+---
+</code></pre></div><p>So now we can define archetypes as content template files, cause they provide a template for your content information. The archetypes dir in your site&rsquo;s root folder contains some pre configured front matter and it also defines your website&rsquo;s content type, so when ever you use the new command this information is used to develop and render your page.
+If you have any archetype files in your theme folder then you probably want to delete the archetypes dir in the root folder of your site.</p>
+<h2 id="configtoml">Config.toml:</h2>
+<p>You&rsquo;ll be interacting a lot with this one, because this file is what defines the whole structure of your site. Hugo uses the config.toml as the default configuration file for your site. The config file can also be of the .yaml or .json extension so check your config file accordingly. Whatever your site uses like images, Customcss files or js files everything needs to be listed in the config file, even the base url, the theme that your site uses reside in this file. You can also have parameters in the config file and then use these parameters else where in your html files.</p>
+<h2 id="data">Data:</h2>
+<p>As the name suggests the data folder is used whenever your site requires some additional information or data when generating it.
+<em><strong>NOTE:</strong></em> Data files are never used to create standalone pages rather they are used in order to support the existing pages. Hugo supports loading data from YAML,JSON and TOML files located in the data directory in the root of your hugo project.</p>
+<h2 id="layouts">Layouts:</h2>
+<p>This directory provides all the necessary templates in the form of .html pages that of course specify how your site works and looks. These templates include list pages,single pages,your homepage,partials and what not (that means many more).</p>
+<h2 id="static">Static:</h2>
+<p>Stores all the static content: images, CSS, JavaScript, etc. When Hugo builds your site, all assets inside your static directory are copied over as-is. A good example of using the static folder is for verifying site ownership on Google Search Console, where you want Hugo to copy over a complete HTML file without modifying its content.</p>
+<p>And finally the content files contains all the markdown files or posts that are rendered on to your site as html files.The theme&rsquo;s folder contains all the contents related to your downloaded theme or custom created theme.</p>
+<p>If you want much detailed information on the file structure and what these files do, check the <a href="https://gohugo.io/getting-started/directory-structure/"><strong>HUGO DOCS</strong></a>.</p>
+<h1 id="until-the-next-post-peace-">Until the next post, PEACE ;)</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Why and how I created this blog??</title>
+            <link>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</link>
+            <pubDate>Fri, 27 Mar 2020 15:37:44 +0530</pubDate>
+            
+            <guid>https://orangeappleak.github.io/posts/whyandhowicreatedthisblog/</guid>
+            <description>Written by: Karthik. Introduction First of all welcome to my fellow WIZARDS and thank you for taking your time to read this.
 This being my first post in my blog, I will be taking a moment to discuss why I created this blog and how I did it.
 I was thinking of creating a blog for a while now, but never actually did it until recently, there is this AWESOME cousin that I have(I&amp;rsquo;ll provide a link to his blog later in this post) and he had an awesome blog and some good posts, so I got inspired and thought why not create a blog and put some posts up, so that it will help me as well as other code wizards like YOU.</description>
-    </item>
-    
-  </channel>
+            <content type="html"><![CDATA[<h4 id="written-by-karthik">Written by: Karthik.</h4>
+<h2 id="introduction">Introduction</h2>
+<p>First of all welcome to my fellow <strong>WIZARDS</strong> and thank you for taking your time to read this.</p>
+<p>This being my first post in my blog, I will be taking a moment to discuss why I created this blog and how I did it.</p>
+<p>I was thinking of creating a blog for a while now, but never actually did it until recently,
+there is this <strong>AWESOME</strong> cousin that I have(I&rsquo;ll provide a link to his blog later in this post) and he had an awesome blog and some good posts, so I got inspired and thought why not create a blog and put some posts up, so that it will help me as well as other code wizards like YOU.</p>
+<h2 id="initial-work">Initial work</h2>
+<p>So, I started working on some basic layouts (like the one below) in HTML, SCSS and some JS and then moved on to write some posts, as I was writing some stuff I came across a thought-<em>How am I going to manage and handle all my posts on the blog?</em>.</p>
+<p><img src="/images/basic_layout.png" alt="cannot display image"></p>
+<p>2 solutions came to my mind:</p>
+<ul>
+<li>
+<p>one having to create a database so that you can add,modify and delete content(BlogPosts), there was already something like this present on the internet and that was called as a <strong>CONTENT MANAGEMENT SYSTEM</strong>. A CMS does exactly what I thought it does and it also provides a UI similar to word or even excel for that matter in order to create and manage the blog posts, but these cms&rsquo;s are not all free. I personally think FORESTRY cms is the best in business because it is built for the static site generators and its free&hellip;&hellip;&hellip;&hellip; well atleast for 3 users per website, check out the website for more info.
+Some of the popular cms&rsquo;s are as follow:</p>
+<ul>
+<li>the most common of them all being <strong>WIX</strong> - (which is worst by the way).</li>
+<li><strong>Wordpress</strong> - can be used for blogs and some small websites.</li>
+<li><strong>Joomla</strong> - provides a flexibility of creating custom databases and extensions.</li>
+<li><strong>Drupal</strong> - an open source platform most often used for community based websites.</li>
+</ul>
+</li>
+<li>
+<p>the second one being a simpler solution, I opted for creating the blog by using a <strong>Static site generator</strong>,and now you might be wondering what the heck is this guy talking about?&hellip;..Well an SSG as the name suggests helps you with creating static sites in no time, its just a matter of few handful commands and VOILA you already have a site running on your local machine. SSGs gain their advantage by providing shitload of themes to choose from and the ease of using them with your statically generated site, and trust me developing and deploying a statically genrated site is lot easier than you think.
+You can also be using html and css to create your site and host it on github or netllify or any preferred hosting services ,but I am going to use an SSG.</p>
+</li>
+</ul>
+<h2 id="why-and-what-is-a-static-site-generator">Why and What is a Static site generator?</h2>
+<p>Now you might be questioning why do I need an SSG while I can simply hard code the site on my own?</p>
+<p>HOLD YOUR HORSE&rsquo;S MA BOI it a&rsquo;int that simple.</p>
+<p>when you have the required tools lying around you, you would&rsquo;nt waste your time and energy to create the tools from scratch right?? , So in a similar way SSG does all the things for you, so that you can concentrate more on the important aspects of your site. The things like security for example and also the load times of your site, are all handled by the SSG. One more thing about SSG that makes people want to use it is the time required to create a site, you just have to choose a theme for your site and then run it on your local server and finally host the resulting html files, see it is simple is&rsquo;nt it.</p>
+<p>Having discussed what an SSG is and why to use it, let us look into some of the popular SSGs present on the web.
+The following are the most commonly used SSGs and are gaining a lot of attention right now:</p>
+<ul>
+<li>
+<h3 id="jekyll">Jekyll:</h3>
+<p>It is a simple blog-aware static site generator built in ruby by GITHUB&rsquo;s co-founder and <strong>is proudly hosted by github</strong> (they mentioned it, not me). Its simple because when you give it text written in your favorite markup language, it uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.
+Installing jekyll is easier when you are using CHOCOLATEY.
+just do</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">choco</span> <span style="color:#f92672">install</span> <span style="color:#f92672">jekyll</span> 
+</code></pre></div><p>and your good to go.
+check the official docs for more info.</p>
+</li>
+<li>
+<h3 id="hugo">Hugo:</h3>
+<p>This is one of my favourites (cause I use it XD), there is not much of a differece when it comes to what it does but the internal organizations and usages might differ. Hugo is an open sourced static site generator and is written in go (aka GOLANG) and also makes use of the go template engine and its <em>SICK</em>. It is developed by <strong>bep,spf13 and friends</strong>. The documentation is pretty overwhelming but still they serve what is necessary. Mostly all the SSGs use something called the markdown content for the posts, the .md files are later rendered as the required html pages.</p>
+</li>
+</ul>
+<h2 id="installing-hugo-and-building-your-first-site">Installing hugo and building your first site</h2>
+<h3 id="step-1-installing-hugo">Step 1: Installing Hugo</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">choco</span> <span style="color:#f92672">install</span> <span style="color:#f92672">hugo</span>
+</code></pre></div><p>This should probably install all the required files on to your system, you can also install using
+<code>css  &gt; brew install hugo (for macOS).</code></p>
+<h3 id="step-2-creating-a-new-site">Step 2: Creating a new site</h3>
+<p>Go to the dir where you want your site to be generated and type the following command in that dir</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">new</span> <span style="color:#f92672">site</span> <span style="color:#f92672">[</span><span style="color:#f92672">your-site-name</span><span style="color:#f92672">]</span>
+</code></pre></div><p>The above command will create a site named [your-site-name] in your specified directory.</p>
+<h3 id="step-3-add-a-theme">Step 3: Add a theme</h3>
+<p>Now you are ready to choose your theme from <a href="https://themes.gohugo.io/">hugo themes</a>, Iam going to use the quickStarter theme for this example <a href="https://github.com/budparr/gohugo-theme-ananke">Ananke theme</a>.
+Download the theme from the github repo and add it to the dir/[you-site-name]/themes folder
+and then initialise a github repo in your site directory, then add the theme as a sub module.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&gt; cd [your-site-name]
+&gt; git init
+&gt; git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre></div><p>last by not least add the theme to your sites configuration as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">echo &#39;theme = &#34;ananke&#34;&#39; &gt;&gt; config.toml
+</code></pre></div><p>the config file is a .toml file or a .yaml file, so edit the content accordingly.</p>
+<h3 id="step-4-add-some-content-to-your-site">Step 4: Add some content to your site</h3>
+<p>you can add new content or posts to your site by doing</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">&gt; hugo new posts/myFirstPost.md
+</code></pre></div><p>here the myFirstpost is a markdown file and hence you need to follow the <a href="https://www.keycdn.com/support/markdown-cheatsheet">markdown syntax</a> in order to render it as a html page.
+now open up your myFirstPost.md and copy the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">---
+title: &#34;My First Post&#34;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+</code></pre></div><p>this here is know as the front-matter and is used by hugo when you want to gather some info on your posts.</p>
+<p>now you have a theme and some content on youre site, lets try to run our site locally as</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">&gt;</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">server</span> <span style="color:#f92672">-D</span>
+                <span style="color:#f92672">|</span> <span style="color:#f92672">EN</span>
+<span style="color:#f92672">+</span><span style="color:#f92672">------------------</span><span style="color:#f92672">+</span><span style="color:#f92672">----</span><span style="color:#f92672">+</span>
+<span style="color:#f92672">Pages</span>            <span style="color:#f92672">|</span> <span style="color:#f92672">10</span>
+<span style="color:#f92672">Paginator</span> <span style="color:#f92672">pages</span>  <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Non-page</span> <span style="color:#f92672">files</span>   <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Static</span> <span style="color:#f92672">files</span>     <span style="color:#f92672">|</span>  <span style="color:#f92672">3</span>
+<span style="color:#f92672">Processed</span> <span style="color:#f92672">images</span> <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+<span style="color:#f92672">Aliases</span>          <span style="color:#f92672">|</span>  <span style="color:#f92672">1</span>
+<span style="color:#f92672">Sitemaps</span>         <span style="color:#f92672">|</span>  <span style="color:#f92672">1</span>
+<span style="color:#f92672">Cleaned</span>          <span style="color:#f92672">|</span>  <span style="color:#f92672">0</span>
+
+<span style="color:#f92672">Total</span> <span style="color:#f92672">in</span> <span style="color:#f92672">11</span> <span style="color:#f92672">ms</span>
+<span style="color:#f92672">Watching</span> <span style="color:#f92672">for</span> <span style="color:#f92672">changes</span> <span style="color:#f92672">in</span> <span style="color:#f92672">/</span><span style="color:#f92672">Users</span><span style="color:#f92672">/</span><span style="color:#f92672">bep</span><span style="color:#f92672">/</span><span style="color:#f92672">quickstart</span><span style="color:#f92672">/</span>{<span style="color:#960050;background-color:#1e0010">content,data,layouts,static,themes</span>}
+<span style="color:#f92672">Watching</span> <span style="color:#f92672">for</span> <span style="color:#f92672">config</span> <span style="color:#f92672">changes</span> <span style="color:#f92672">in</span> <span style="color:#f92672">/</span><span style="color:#f92672">Users</span><span style="color:#f92672">/</span><span style="color:#f92672">bep</span><span style="color:#f92672">/</span><span style="color:#f92672">quickstart</span><span style="color:#f92672">/</span><span style="color:#f92672">config</span>.<span style="color:#a6e22e">toml</span>
+<span style="color:#f92672">Environment</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;development&#34;</span>
+<span style="color:#f92672">Serving</span> <span style="color:#f92672">pages</span> <span style="color:#f92672">from</span> <span style="color:#f92672">memory</span>
+<span style="color:#f92672">Running</span> <span style="color:#f92672">in</span> <span style="color:#f92672">Fast</span> <span style="color:#f92672">Render</span> <span style="color:#f92672">Mode</span><span style="color:#f92672">.</span> <span style="color:#f92672">For</span> <span style="color:#f92672">full</span> <span style="color:#f92672">rebuilds</span> <span style="color:#f92672">on</span> <span style="color:#f92672">change</span><span style="color:#f92672">:</span> <span style="color:#f92672">hugo</span> <span style="color:#f92672">server</span> <span style="color:#f92672">--disableFastRender</span>
+<span style="color:#f92672">Web</span> <span style="color:#f92672">Server</span> <span style="color:#f92672">is</span> <span style="color:#f92672">available</span> <span style="color:#f92672">at</span> {http:<span style="color:#f92672">//</span>localhost<span style="color:#f92672">:</span><span style="color:#ae81ff">1313</span><span style="color:#f92672">/</span>} <span style="color:#f92672">(</span><span style="color:#f92672">bind</span> <span style="color:#f92672">address</span> <span style="color:#f92672">127</span>.<span style="color:#a6e22e">0</span>.<span style="color:#a6e22e">0</span>.<span style="color:#a6e22e">1</span><span style="color:#f92672">)</span>
+<span style="color:#f92672">Press</span> <span style="color:#f92672">Ctrl</span><span style="color:#f92672">+</span><span style="color:#f92672">C</span> <span style="color:#f92672">to</span> <span style="color:#f92672">stop</span>
+</code></pre></div><p>now copy the link mentioned in the {} and paste it in your browser tab, we have our first site generated <strong>CONGRATULATIONS</strong>.</p>
+<p>you can create custom themes using HUGO like I did with my blog, and if you want to make any changes to your current site open up your config.toml/config.yaml file to tweak your site.
+Here&rsquo;s a link to the official docs <a href="https://gohugo.io/documentation/">HUGO DOCUMENTATION</a>.</p>
+<h3 id="heres-the-link-to-my-cousins-blog-ice-cerealhttpsicecerealgithubio">HERES THE LINK TO MY COUSINS BLOG <a href="https://icecereal.github.io/">ICE-CEREAL</a>.</h3>
+<h3 id="in-the-next-post-ill-be-discussing-about-the-file-formats-of-hugo-and-some-other-cool-stuff-about-hugo">In the next post ill be discussing about the file formats of hugo and some other cool stuff about HUGO</h3>
+<h1 id="until-then-peace-">until then PEACE ;)</h1>
+]]></content>
+        </item>
+        
+    </channel>
 </rss>
